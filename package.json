@@ -1,5 +1,6 @@
 {
   "name": "news-explorer-api",
+  "author": "Derek Schinke",
   "devDependencies": {
     "eslint": "^7.25.0",
     "eslint-config-airbnb-base": "^14.2.1",
