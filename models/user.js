@@ -7,8 +7,16 @@ const schema = new mongoose.Schema({
     required: true,
     validate: { validator: (email) => validator.isEmail(email) },
   },
-  password: { type: String, required: true },
-  name: { type: String, minLength: 2, maxLength: 30, required: true },
+  password: {
+    type: String,
+    required: true,
+  },
+  name: {
+    type: String,
+    minLength: 2,
+    maxLength: 30,
+    required: true,
+  },
 });
 
 module.exports = mongoose.model('user', schema);
