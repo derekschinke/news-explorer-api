@@ -79,7 +79,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@eslint/eslintrc", "npm:0.4.0"],
             ["ajv", "npm:6.12.6"],
-            ["debug", "virtual:901e1408cc8bfef5550e648cc3ee4f1ec6e307e3f5baab3ad60f0ba461a3df0a2fb4207ed57f6ec68edeacbb88063dcc84f3c35bb45638ba421a021eb350b42b#npm:4.3.1"],
+            ["debug", "virtual:901e1408cc8bfef5550e648cc3ee4f1ec6e307e3f5baab3ad60f0ba461a3df0a2fb4207ed57f6ec68edeacbb88063dcc84f3c35bb45638ba421a021eb350b42b#npm:4.3.2"],
             ["espree", "npm:7.3.1"],
             ["globals", "npm:12.4.0"],
             ["ignore", "npm:4.0.6"],
@@ -378,17 +378,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["npm:4.3.1", {
-          "packageLocation": "./.yarn/cache/debug-npm-4.3.1-22e08d605e-2c3352e37d.zip/node_modules/debug/",
+        ["npm:4.3.2", {
+          "packageLocation": "./.yarn/cache/debug-npm-4.3.2-f0148b6afe-820ea160e2.zip/node_modules/debug/",
           "packageDependencies": [
-            ["debug", "npm:4.3.1"]
+            ["debug", "npm:4.3.2"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:901e1408cc8bfef5550e648cc3ee4f1ec6e307e3f5baab3ad60f0ba461a3df0a2fb4207ed57f6ec68edeacbb88063dcc84f3c35bb45638ba421a021eb350b42b#npm:4.3.1", {
-          "packageLocation": "./.yarn/__virtual__/debug-virtual-fa0db5a5a5/0/cache/debug-npm-4.3.1-22e08d605e-2c3352e37d.zip/node_modules/debug/",
+        ["virtual:901e1408cc8bfef5550e648cc3ee4f1ec6e307e3f5baab3ad60f0ba461a3df0a2fb4207ed57f6ec68edeacbb88063dcc84f3c35bb45638ba421a021eb350b42b#npm:4.3.2", {
+          "packageLocation": "./.yarn/__virtual__/debug-virtual-56204c5ee4/0/cache/debug-npm-4.3.2-f0148b6afe-820ea160e2.zip/node_modules/debug/",
           "packageDependencies": [
-            ["debug", "virtual:901e1408cc8bfef5550e648cc3ee4f1ec6e307e3f5baab3ad60f0ba461a3df0a2fb4207ed57f6ec68edeacbb88063dcc84f3c35bb45638ba421a021eb350b42b#npm:4.3.1"],
+            ["debug", "virtual:901e1408cc8bfef5550e648cc3ee4f1ec6e307e3f5baab3ad60f0ba461a3df0a2fb4207ed57f6ec68edeacbb88063dcc84f3c35bb45638ba421a021eb350b42b#npm:4.3.2"],
             ["ms", "npm:2.1.2"],
             ["supports-color", null]
           ],
@@ -533,7 +533,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ajv", "npm:6.12.6"],
             ["chalk", "npm:4.1.1"],
             ["cross-spawn", "npm:7.0.3"],
-            ["debug", "virtual:901e1408cc8bfef5550e648cc3ee4f1ec6e307e3f5baab3ad60f0ba461a3df0a2fb4207ed57f6ec68edeacbb88063dcc84f3c35bb45638ba421a021eb350b42b#npm:4.3.1"],
+            ["debug", "virtual:901e1408cc8bfef5550e648cc3ee4f1ec6e307e3f5baab3ad60f0ba461a3df0a2fb4207ed57f6ec68edeacbb88063dcc84f3c35bb45638ba421a021eb350b42b#npm:4.3.2"],
             ["doctrine", "npm:3.0.0"],
             ["enquirer", "npm:2.3.6"],
             ["eslint-scope", "npm:5.1.1"],

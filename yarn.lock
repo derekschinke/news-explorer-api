@@ -299,14 +299,14 @@ __metadata:
   linkType: hard
 
 "debug@npm:^4.0.1, debug@npm:^4.1.1":
-  version: 4.3.1
-  resolution: "debug@npm:4.3.1"
+  version: 4.3.2
+  resolution: "debug@npm:4.3.2"
   dependencies:
     ms: 2.1.2
   peerDependenciesMeta:
     supports-color:
       optional: true
-  checksum: 2c3352e37d5c46b0d203317cd45ea0e26b2c99f2d9dfec8b128e6ceba90dfb65425f5331bf3020fe9929d7da8c16758e737f4f3bfc0fce6b8b3d503bae03298b
+  checksum: 820ea160e267e23c953c9ed87e7ad93494d8cda2f7349af5e7e3bb236d23707ee3022f477d5a7d2ee86ef2bf7d60aa9ab22d1f58080d7deb9dccd073585e1e43
   languageName: node
   linkType: hard
 
