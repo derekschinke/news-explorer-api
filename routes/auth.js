@@ -10,3 +10,5 @@ const router = express.Router();
 
 router.post('/signup', signUpCelebration, signUp);
 router.post('/signin', signInCelebration, signIn);
+
+module.exports = router;
