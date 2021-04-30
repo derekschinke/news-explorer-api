@@ -5,6 +5,7 @@ const helmet = require('helmet');
 const dotenv = require('dotenv');
 
 const { limiter, speedLimiter } = require('./middleware/limiters');
+const { requestLogger, errorLogger } = require('./middleware/logger');
 
 dotenv.config();
 
@@ -33,6 +34,10 @@ app.use(speedLimiter);
 
 app.use(express.json({ extended: true }));
 app.use(express.urlencoded({ extended: true }));
+
+app.use(requestLogger);
+
+app.use(errorLogger);
 
 app.listen(process.env.PORT || PORT, () => {
   // eslint-disable-next-line no-console
