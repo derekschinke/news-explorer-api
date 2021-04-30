@@ -4,7 +4,7 @@ const { signUp, signIn } = require('../controllers/auth');
 const {
   signUpCelebration,
   signInCelebration,
-} = require('../middleware/celebration');
+} = require('../middleware/celebrations');
 
 const router = express.Router();
 
