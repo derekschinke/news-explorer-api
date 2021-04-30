@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["celebrate", "npm:14.0.0"],
             ["cors", "npm:2.8.5"],
             ["dotenv", "npm:8.2.0"],
             ["eslint", "npm:7.25.0"],
@@ -118,6 +119,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@hapi/hoek", [
+        ["npm:9.2.0", {
+          "packageLocation": "./.yarn/cache/@hapi-hoek-npm-9.2.0-efd2a3831f-57103bb507.zip/node_modules/@hapi/hoek/",
+          "packageDependencies": [
+            ["@hapi/hoek", "npm:9.2.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@hapi/topo", [
+        ["npm:5.0.0", {
+          "packageLocation": "./.yarn/cache/@hapi-topo-npm-5.0.0-2bfaee40f2-8aa81f7169.zip/node_modules/@hapi/topo/",
+          "packageDependencies": [
+            ["@hapi/topo", "npm:5.0.0"],
+            ["@hapi/hoek", "npm:9.2.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@npmcli/move-file", [
         ["npm:1.1.2", {
           "packageLocation": "./.yarn/cache/@npmcli-move-file-npm-1.1.2-4f6c7b3354-c96381d4a3.zip/node_modules/@npmcli/move-file/",
@@ -125,6 +145,34 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@npmcli/move-file", "npm:1.1.2"],
             ["mkdirp", "npm:1.0.4"],
             ["rimraf", "npm:3.0.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@sideway/address", [
+        ["npm:4.1.1", {
+          "packageLocation": "./.yarn/cache/@sideway-address-npm-4.1.1-2c7d8b653f-0a86af89c1.zip/node_modules/@sideway/address/",
+          "packageDependencies": [
+            ["@sideway/address", "npm:4.1.1"],
+            ["@hapi/hoek", "npm:9.2.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@sideway/formula", [
+        ["npm:3.0.0", {
+          "packageLocation": "./.yarn/cache/@sideway-formula-npm-3.0.0-8688cb96b6-8ae26a0ed6.zip/node_modules/@sideway/formula/",
+          "packageDependencies": [
+            ["@sideway/formula", "npm:3.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@sideway/pinpoint", [
+        ["npm:2.0.0", {
+          "packageLocation": "./.yarn/cache/@sideway-pinpoint-npm-2.0.0-66d94e687e-0f4491e589.zip/node_modules/@sideway/pinpoint/",
+          "packageDependencies": [
+            ["@sideway/pinpoint", "npm:2.0.0"]
           ],
           "linkType": "HARD",
         }]
@@ -665,6 +713,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/camelcase-npm-5.3.1-5db8af62c5-e6effce26b.zip/node_modules/camelcase/",
           "packageDependencies": [
             ["camelcase", "npm:5.3.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["celebrate", [
+        ["npm:14.0.0", {
+          "packageLocation": "./.yarn/cache/celebrate-npm-14.0.0-c0f7d12bd3-d04b6fd33f.zip/node_modules/celebrate/",
+          "packageDependencies": [
+            ["celebrate", "npm:14.0.0"],
+            ["escape-html", "npm:1.0.3"],
+            ["joi", "npm:17.4.0"],
+            ["lodash", "npm:4.17.21"]
           ],
           "linkType": "HARD",
         }]
@@ -2637,6 +2697,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["joi", [
+        ["npm:17.4.0", {
+          "packageLocation": "./.yarn/cache/joi-npm-17.4.0-cfd6f2d54c-c293bb7f12.zip/node_modules/joi/",
+          "packageDependencies": [
+            ["joi", "npm:17.4.0"],
+            ["@hapi/hoek", "npm:9.2.0"],
+            ["@hapi/topo", "npm:5.0.0"],
+            ["@sideway/address", "npm:4.1.1"],
+            ["@sideway/formula", "npm:3.0.0"],
+            ["@sideway/pinpoint", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["js-tokens", [
         ["npm:4.0.0", {
           "packageLocation": "./.yarn/cache/js-tokens-npm-4.0.0-0ac852e9e2-8a95213a5a.zip/node_modules/js-tokens/",
@@ -3214,6 +3288,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["news-explorer-api", "workspace:."],
+            ["celebrate", "npm:14.0.0"],
             ["cors", "npm:2.8.5"],
             ["dotenv", "npm:8.2.0"],
             ["eslint", "npm:7.25.0"],
