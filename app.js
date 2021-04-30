@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const { errors } = require('celebrate');
 const cors = require('cors');
 const helmet = require('helmet');
 const dotenv = require('dotenv');
@@ -38,6 +39,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(requestLogger);
 
 app.use(errorLogger);
+
+app.use(errors());
 
 app.listen(process.env.PORT || PORT, () => {
   // eslint-disable-next-line no-console
