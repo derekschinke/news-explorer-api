@@ -5,6 +5,8 @@ const cors = require('cors');
 const helmet = require('helmet');
 const dotenv = require('dotenv');
 
+const router = require('./routes/index');
+
 const { limiter, speedLimiter } = require('./middleware/limiters');
 const { requestLogger, errorLogger } = require('./middleware/logger');
 
@@ -37,6 +39,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(requestLogger);
+
+app.use('/', router);
 
 app.use(errorLogger);
 
