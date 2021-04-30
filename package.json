@@ -21,8 +21,10 @@
     "express": "^4.17.1",
     "express-rate-limit": "^5.2.6",
     "express-slow-down": "^1.4.0",
+    "express-winston": "^4.1.0",
     "helmet": "^4.5.0",
     "mongoose": "^5.12.7",
-    "validator": "^13.6.0"
+    "validator": "^13.6.0",
+    "winston": "^3.3.3"
   }
 }
