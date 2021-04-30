@@ -1,5 +1,12 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
+const helmet = require('helmet');
+const dotenv = require('dotenv');
+
+const { limiter, speedLimiter } = require('./middleware/limiters');
+
+dotenv.config();
 
 const { PORT = 3001 } = process.env;
 
@@ -13,6 +20,19 @@ mongoose.connect(mongodbUri, {
   useFindAndModify: false,
   useUnifiedTopology: true,
 });
+
+app.use(cors());
+app.options('*', cors());
+
+app.use(helmet());
+
+app.set('trust proxy', 1);
+app.use(limiter);
+app.enable('trust proxy');
+app.use(speedLimiter);
+
+app.use(express.json({ extended: true }));
+app.use(express.urlencoded({ extended: true }));
 
 app.listen(process.env.PORT || PORT, () => {
   // eslint-disable-next-line no-console
