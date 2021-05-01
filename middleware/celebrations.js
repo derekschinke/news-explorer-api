@@ -1,5 +1,7 @@
 const { celebrate, Joi } = require('celebrate');
 
+const { BEARER_REGEX } = require('../utils/constants');
+
 module.exports.signUpCelebration = celebrate({
   body: Joi.object().keys({
     email: Joi.string().required().email(),
@@ -13,4 +15,11 @@ module.exports.signInCelebration = celebrate({
     email: Joi.string().required().email(),
     password: Joi.string().required().min(8),
   }),
+});
+
+module.exports.getUserCelebration = celebrate({
+  headers: Joi.object()
+    .keys({ authorization: Joi.string().regex(BEARER_REGEX).required() })
+    .options({ allowUnknown: true }),
+  body: Joi.object().keys({ id: Joi.string().length(24).hex().required() }),
 });
