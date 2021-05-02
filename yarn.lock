@@ -1855,10 +1855,10 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"helmet@npm:^4.5.0":
-  version: 4.5.0
-  resolution: "helmet@npm:4.5.0"
-  checksum: 95b2eddeb7811ad34135a96b192cab1c630f946f5e0dd86461da70f1fed76732129663b73bdf53550ab13e6f2137e692e4f2925bbb10132754066d63d408fe1f
+"helmet@npm:^4.6.0":
+  version: 4.6.0
+  resolution: "helmet@npm:4.6.0"
+  checksum: 139ad678d1cab207b043c206f50f6744eff2ef1f463e4626d36718b45b337485c77d10260ef9d89d292fa678da5153d86b08172b3b365cc8e680241015ed3a49
   languageName: node
   linkType: hard
 
@@ -2899,7 +2899,7 @@ fsevents@~2.3.1:
     express-rate-limit: ^5.2.6
     express-slow-down: ^1.4.0
     express-winston: ^4.1.0
-    helmet: ^4.5.0
+    helmet: ^4.6.0
     jsonwebtoken: ^8.5.1
     mongoose: ^5.12.7
     node-gyp: ^8.0.0
