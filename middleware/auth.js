@@ -15,7 +15,7 @@ module.exports = (req, res, next) => {
   }
 
   const token = authorization.replace('Bearer ', '');
-
+  // Checks if token is valid by trying to decode it
   let payload;
   try {
     payload = jwt.verify(
@@ -25,7 +25,7 @@ module.exports = (req, res, next) => {
   } catch (err) {
     throw new UnauthorizedError('Authorization required');
   }
-
+  // Includes user info from decoded token in req, passed to controller
   req.user = payload;
 
   next();
