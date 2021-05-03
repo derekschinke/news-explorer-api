@@ -21,5 +21,10 @@ module.exports.getUserCelebration = celebrate({
   headers: Joi.object()
     .keys({ authorization: Joi.string().regex(BEARER_REGEX).required() })
     .options({ allowUnknown: true }),
-  body: Joi.object().keys({ id: Joi.string().length(24).hex().required() }),
+});
+
+module.exports.getArticlesCelebration = celebrate({
+  headers: Joi.object()
+    .keys({ authorization: Joi.string().regex(BEARER_REGEX).required() })
+    .options({ allowUnknown: true }),
 });
