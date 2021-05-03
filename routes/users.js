@@ -1,6 +1,6 @@
 const express = require('express');
 
-const { getUser } = require('../controllers/user');
+const { getUser } = require('../controllers/users');
 const auth = require('../middleware/auth');
 const { getUserCelebration } = require('../middleware/celebrations');
 
