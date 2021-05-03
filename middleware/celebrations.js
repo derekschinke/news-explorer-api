@@ -28,3 +28,18 @@ module.exports.getArticlesCelebration = celebrate({
     .keys({ authorization: Joi.string().regex(BEARER_REGEX).required() })
     .options({ allowUnknown: true }),
 });
+
+module.exports.postArticleCelebration = celebrate({
+  headers: Joi.object()
+    .keys({ authorization: Joi.string().regex(BEARER_REGEX).required() })
+    .options({ allowUnknown: true }),
+  body: Joi.object().keys({
+    keyword: Joi.string().required(),
+    title: Joi.string().required(),
+    text: Joi.string().required(),
+    date: Joi.string().required(),
+    source: Joi.string().required(),
+    link: Joi.string().uri().required(),
+    image: Joi.string().uri().required(),
+  }),
+});

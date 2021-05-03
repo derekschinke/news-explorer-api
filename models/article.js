@@ -26,12 +26,12 @@ const schema = new mongoose.Schema(
     link: {
       type: String,
       required: true,
-      validate: { validator: (url) => validator.isUrl(url) },
+      validate: { validator: (url) => validator.isURL(url) },
     },
     image: {
       type: String,
       required: true,
-      validate: { validator: (url) => validator.isUrl(url) },
+      validate: { validator: (url) => validator.isURL(url) },
     },
     owner: {
       type: mongoose.Schema.Types.ObjectId,

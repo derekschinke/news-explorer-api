@@ -1,4 +1,3 @@
-const dotenv = require('dotenv');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
@@ -9,7 +8,6 @@ const BadRequestError = require('../errors/BadRequestError');
 const ConflictError = require('../errors/ConflictError');
 const UnauthorizedError = require('../errors/UnauthorizedError');
 
-dotenv.config();
 const { NODE_ENV, JWT_SECRET } = process.env;
 
 module.exports.signUp = (req, res, next) => {
