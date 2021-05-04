@@ -45,8 +45,6 @@ module.exports.deleteArticle = (req, res, next) => {
   Article.findById(req.params.articleId)
     .select('+owner')
     .then((article) => {
-      console.log(req.user._id);
-      console.log(article);
       if (article && req.user._id.toString() === article.owner.toString()) {
         Article.deleteOne(article).then((deletedArticle) => {
           res.status(STATUS_CODES.ok).send(deletedArticle);
