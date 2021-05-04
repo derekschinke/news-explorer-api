@@ -56,7 +56,7 @@ module.exports.deleteArticle = (req, res, next) => {
       }
     })
     .catch((err) => {
-      if (err.statusCode === 404) {
+      if (err.statusCode === STATUS_CODES.notFound) {
         throw new NotFoundError('Article not found');
       }
     })
