@@ -1,6 +1,12 @@
 {
   "name": "news-explorer-api",
   "author": "Derek Schinke",
+  "main": "app.js",
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x",
+    "yarn": "3.x"
+  },
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
