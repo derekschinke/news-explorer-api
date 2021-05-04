@@ -1503,7 +1503,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["enquirer", "npm:2.3.6"],
             ["eslint-scope", "npm:5.1.1"],
             ["eslint-utils", "npm:2.1.0"],
-            ["eslint-visitor-keys", "npm:2.0.0"],
+            ["eslint-visitor-keys", "npm:2.1.0"],
             ["espree", "npm:7.3.1"],
             ["esquery", "npm:1.4.0"],
             ["esutils", "npm:2.0.3"],
@@ -1700,10 +1700,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:2.0.0", {
-          "packageLocation": "./.yarn/cache/eslint-visitor-keys-npm-2.0.0-5c9523822c-e07e9863fb.zip/node_modules/eslint-visitor-keys/",
+        ["npm:2.1.0", {
+          "packageLocation": "./.yarn/cache/eslint-visitor-keys-npm-2.1.0-c31806b6b9-e3081d7dd2.zip/node_modules/eslint-visitor-keys/",
           "packageDependencies": [
-            ["eslint-visitor-keys", "npm:2.0.0"]
+            ["eslint-visitor-keys", "npm:2.1.0"]
           ],
           "linkType": "HARD",
         }]
