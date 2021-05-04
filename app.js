@@ -10,6 +10,9 @@ const router = require('./routes/index');
 const { limiter, speedLimiter } = require('./middleware/limiters');
 const { requestLogger, errorLogger } = require('./middleware/logger');
 
+const serverErrorHandler = require('./utils/serverErrorHandler');
+const NotFoundError = require('./errors/NotFoundError');
+
 dotenv.config();
 
 const { PORT = 3000 } = process.env;
@@ -45,6 +48,15 @@ app.use('/', router);
 app.use(errorLogger);
 
 app.use(errors());
+
+app.use('*', (req, res, next) =>
+  next(new NotFoundError('Requested resource not found'))
+);
+
+// eslint-disable-next-line no-unused-vars
+app.use((err, req, res, next) => {
+  serverErrorHandler(err, res);
+});
 
 app.listen(process.env.PORT || PORT, () => {
   // eslint-disable-next-line no-console
