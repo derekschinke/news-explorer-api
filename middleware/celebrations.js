@@ -43,3 +43,12 @@ module.exports.postArticleCelebration = celebrate({
     image: Joi.string().uri().required(),
   }),
 });
+
+module.exports.deleteArticleCelebration = celebrate({
+  headers: Joi.object()
+    .keys({ authorization: Joi.string().regex(BEARER_REGEX).required() })
+    .options({ allowUnknown: true }),
+  params: Joi.object().keys({
+    articleId: Joi.string().length(24).hex().required(),
+  }),
+});
