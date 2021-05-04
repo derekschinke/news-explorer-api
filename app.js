@@ -15,13 +15,13 @@ const NotFoundError = require('./errors/NotFoundError');
 
 dotenv.config();
 
+const { MONGODB_URI } = require('./utils/constants');
+
 const { PORT = 3000 } = process.env;
 
 const app = express();
 
-const mongodbUri = 'mongodb://localhost:27017/newsdb';
-
-mongoose.connect(mongodbUri, {
+mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useCreateIndex: true,
   useFindAndModify: false,
