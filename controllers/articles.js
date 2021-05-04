@@ -5,7 +5,7 @@ const { STATUS_CODES } = require('../utils/constants');
 const BadRequestError = require('../errors/BadRequestError');
 
 module.exports.getArticles = (req, res, next) => {
-  Article.find({})
+  Article.find({ owner: req.user._id })
     .then((articles) => {
       res.status(STATUS_CODES.ok).send(articles);
     })
