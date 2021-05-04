@@ -2,7 +2,7 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
 const User = require('../models/user');
-const { STATUS_CODES } = require('../utils/constants');
+const { DEV_SECRET, STATUS_CODES } = require('../utils/constants');
 
 const BadRequestError = require('../errors/BadRequestError');
 const ConflictError = require('../errors/ConflictError');
@@ -50,7 +50,7 @@ module.exports.signIn = (req, res, next) => {
 
       const token = jwt.sign(
         { _id: req._id },
-        NODE_ENV === 'production' ? JWT_SECRET : 'dev-secret',
+        NODE_ENV === 'production' ? JWT_SECRET : DEV_SECRET,
         { expiresIn: '7d' }
       );
 
