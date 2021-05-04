@@ -4,8 +4,7 @@
   "main": "app.js",
   "engines": {
     "node": "16.x",
-    "npm": "7.x",
-    "yarn": "3.x"
+    "npm": "7.x"
   },
   "scripts": {
     "start": "node app.js",
