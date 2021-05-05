@@ -187,9 +187,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 15.0.1
-  resolution: "@types/node@npm:15.0.1"
-  checksum: af8c8ba83e9e56a1aa9db7106b2d05c07fa67fd6bf67490317530e05e9d85e1326e95f702aaf207379b3aaa10be7c68c76dc1ed114932bebdf46fe9c58aa0261
+  version: 15.0.2
+  resolution: "@types/node@npm:15.0.2"
+  checksum: 273565e1da341b248e08bec105667f0ab8ef89e347a47bbd6e18e35c0946788a53d581e0e3d8b8e3b3b5809db3237fcbf1bbb2251cf1506e5f81622739cb9ff1
   languageName: node
   linkType: hard
 
@@ -1054,9 +1054,9 @@ __metadata:
   linkType: hard
 
 "dotenv@npm:^8.2.0":
-  version: 8.2.0
-  resolution: "dotenv@npm:8.2.0"
-  checksum: ad4c8e0df3e24b4811c8e93377d048a10a9b213dcd9f062483b4a2d3168f08f10ec9c618c23f5639060d230ccdb174c08761479e9baa29610aa978e1ee66df76
+  version: 8.6.0
+  resolution: "dotenv@npm:8.6.0"
+  checksum: 38e902c80b0666ab59e9310a3d24ed237029a7ce34d976796349765ac96b8d769f6df19090f1f471b77a25ca391971efde8a1ea63bb83111bd8bec8e5cc9b2cd
   languageName: node
   linkType: hard
 
@@ -2069,9 +2069,9 @@ fsevents@~2.3.1:
   linkType: hard
 
 "is-bigint@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "is-bigint@npm:1.0.1"
-  checksum: 04aa6fde59d2b7929df865acb89c8d7f89f919cc149b8be11e3560b1aab8667e5d939cc8954097c496f7dda80fd5bb67f829ca80ab66cc68918e41e2c1b9c5d7
+  version: 1.0.2
+  resolution: "is-bigint@npm:1.0.2"
+  checksum: 5268edbde844583d8d5ce86f8e47669bf9dd9b3d4de0238b25bb2ddfc620b47e0e226171a906f19ac4c10debba160353fb98c134d0309898495e1b691efcfb80
   languageName: node
   linkType: hard
 
@@ -2121,9 +2121,9 @@ fsevents@~2.3.1:
   linkType: hard
 
 "is-date-object@npm:^1.0.1":
-  version: 1.0.2
-  resolution: "is-date-object@npm:1.0.2"
-  checksum: ac859426e5df031abd9d1eeed32a41cc0de06e47227bd972b8bc716460a9404654b3dba78f41e8171ccf535c4bfa6d72a8d1d15a0873f9646698af415e92c2fb
+  version: 1.0.3
+  resolution: "is-date-object@npm:1.0.3"
+  checksum: 7ed29f84269ee70a873fe29a5449252843e30ab239faa360b448d3e51b3ab7ba57885ac8d5f9aba93d5d6b0d4972528da0ba524df9d585501027603f4014e3b4
   languageName: node
   linkType: hard
 

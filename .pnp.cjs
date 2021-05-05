@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["bcrypt", "npm:5.0.1"],
             ["celebrate", "npm:14.0.0"],
             ["cors", "npm:2.8.5"],
-            ["dotenv", "npm:8.2.0"],
+            ["dotenv", "npm:8.6.0"],
             ["eslint", "npm:7.25.0"],
             ["eslint-config-airbnb-base", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:14.2.1"],
             ["eslint-config-prettier", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:8.3.0"],
@@ -231,7 +231,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-bson-npm-4.0.3-4ec8c44242-38e80ef424.zip/node_modules/@types/bson/",
           "packageDependencies": [
             ["@types/bson", "npm:4.0.3"],
-            ["@types/node", "npm:15.0.1"]
+            ["@types/node", "npm:15.0.2"]
           ],
           "linkType": "HARD",
         }]
@@ -250,7 +250,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-keyv-npm-3.1.1-779a80f2c7-ee0d098693.zip/node_modules/@types/keyv/",
           "packageDependencies": [
             ["@types/keyv", "npm:3.1.1"],
-            ["@types/node", "npm:15.0.1"]
+            ["@types/node", "npm:15.0.2"]
           ],
           "linkType": "HARD",
         }]
@@ -261,16 +261,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@types/mongodb", "npm:3.6.12"],
             ["@types/bson", "npm:4.0.3"],
-            ["@types/node", "npm:15.0.1"]
+            ["@types/node", "npm:15.0.2"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@types/node", [
-        ["npm:15.0.1", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-15.0.1-dcfad4a203-af8c8ba83e.zip/node_modules/@types/node/",
+        ["npm:15.0.2", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-15.0.2-433fc3c944-273565e1da.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:15.0.1"]
+            ["@types/node", "npm:15.0.2"]
           ],
           "linkType": "HARD",
         }]
@@ -280,7 +280,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-responselike-npm-1.0.0-85dd08af42-e99fc7cc62.zip/node_modules/@types/responselike/",
           "packageDependencies": [
             ["@types/responselike", "npm:1.0.0"],
-            ["@types/node", "npm:15.0.1"]
+            ["@types/node", "npm:15.0.2"]
           ],
           "linkType": "HARD",
         }]
@@ -1296,10 +1296,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["dotenv", [
-        ["npm:8.2.0", {
-          "packageLocation": "./.yarn/cache/dotenv-npm-8.2.0-6b21df4d37-ad4c8e0df3.zip/node_modules/dotenv/",
+        ["npm:8.6.0", {
+          "packageLocation": "./.yarn/cache/dotenv-npm-8.6.0-2ce3e9f7bb-38e902c80b.zip/node_modules/dotenv/",
           "packageDependencies": [
-            ["dotenv", "npm:8.2.0"]
+            ["dotenv", "npm:8.6.0"]
           ],
           "linkType": "HARD",
         }]
@@ -1455,7 +1455,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["es-to-primitive", "npm:1.2.1"],
             ["is-callable", "npm:1.2.3"],
-            ["is-date-object", "npm:1.0.2"],
+            ["is-date-object", "npm:1.0.3"],
             ["is-symbol", "npm:1.0.3"]
           ],
           "linkType": "HARD",
@@ -2499,10 +2499,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["is-bigint", [
-        ["npm:1.0.1", {
-          "packageLocation": "./.yarn/cache/is-bigint-npm-1.0.1-6228cdc523-04aa6fde59.zip/node_modules/is-bigint/",
+        ["npm:1.0.2", {
+          "packageLocation": "./.yarn/cache/is-bigint-npm-1.0.2-db0dde4bd4-5268edbde8.zip/node_modules/is-bigint/",
           "packageDependencies": [
-            ["is-bigint", "npm:1.0.1"]
+            ["is-bigint", "npm:1.0.2"]
           ],
           "linkType": "HARD",
         }]
@@ -2557,10 +2557,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["is-date-object", [
-        ["npm:1.0.2", {
-          "packageLocation": "./.yarn/cache/is-date-object-npm-1.0.2-461fbe93c0-ac859426e5.zip/node_modules/is-date-object/",
+        ["npm:1.0.3", {
+          "packageLocation": "./.yarn/cache/is-date-object-npm-1.0.3-e6989a7da9-7ed29f8426.zip/node_modules/is-date-object/",
           "packageDependencies": [
-            ["is-date-object", "npm:1.0.2"]
+            ["is-date-object", "npm:1.0.3"]
           ],
           "linkType": "HARD",
         }]
@@ -3456,7 +3456,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["bcrypt", "npm:5.0.1"],
             ["celebrate", "npm:14.0.0"],
             ["cors", "npm:2.8.5"],
-            ["dotenv", "npm:8.2.0"],
+            ["dotenv", "npm:8.6.0"],
             ["eslint", "npm:7.25.0"],
             ["eslint-config-airbnb-base", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:14.2.1"],
             ["eslint-config-prettier", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:8.3.0"],
@@ -5042,7 +5042,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/which-boxed-primitive-npm-1.0.2-e214f9ae5a-53ce774c73.zip/node_modules/which-boxed-primitive/",
           "packageDependencies": [
             ["which-boxed-primitive", "npm:1.0.2"],
-            ["is-bigint", "npm:1.0.1"],
+            ["is-bigint", "npm:1.0.2"],
             ["is-boolean-object", "npm:1.1.0"],
             ["is-number-object", "npm:1.0.4"],
             ["is-string", "npm:1.0.5"],
