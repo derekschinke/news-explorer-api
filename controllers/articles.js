@@ -55,10 +55,5 @@ module.exports.deleteArticle = (req, res, next) => {
         throw new ForbiddenError('Insufficient rights to article');
       }
     })
-    .catch((err) => {
-      if (err.statusCode === STATUS_CODES.notFound) {
-        throw new NotFoundError('Article not found');
-      }
-    })
     .catch(next);
 };
