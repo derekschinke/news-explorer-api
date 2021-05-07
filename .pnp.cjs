@@ -695,7 +695,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@npmcli/move-file", "npm:1.1.2"],
             ["chownr", "npm:2.0.0"],
             ["fs-minipass", "npm:2.1.0"],
-            ["glob", "npm:7.1.6"],
+            ["glob", "npm:7.1.7"],
             ["infer-owner", "npm:1.0.4"],
             ["lru-cache", "npm:6.0.0"],
             ["minipass", "npm:3.1.3"],
@@ -1527,7 +1527,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["semver", "npm:7.3.5"],
             ["strip-ansi", "npm:6.0.0"],
             ["strip-json-comments", "npm:3.1.1"],
-            ["table", "npm:6.6.0"],
+            ["table", "npm:6.7.0"],
             ["text-table", "npm:0.2.0"],
             ["v8-compile-cache", "npm:2.3.0"]
           ],
@@ -2107,10 +2107,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["glob", [
-        ["npm:7.1.6", {
-          "packageLocation": "./.yarn/cache/glob-npm-7.1.6-1ce3a5189a-351d549dd9.zip/node_modules/glob/",
+        ["npm:7.1.7", {
+          "packageLocation": "./.yarn/cache/glob-npm-7.1.7-5698ad9c48-b61f48973b.zip/node_modules/glob/",
           "packageDependencies": [
-            ["glob", "npm:7.1.6"],
+            ["glob", "npm:7.1.7"],
             ["fs.realpath", "npm:1.0.0"],
             ["inflight", "npm:1.0.6"],
             ["inherits", "npm:2.0.4"],
@@ -2968,15 +2968,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["lodash.flatten", [
-        ["npm:4.4.0", {
-          "packageLocation": "./.yarn/cache/lodash.flatten-npm-4.4.0-495935e617-0ac34a393d.zip/node_modules/lodash.flatten/",
-          "packageDependencies": [
-            ["lodash.flatten", "npm:4.4.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["lodash.includes", [
         ["npm:4.3.0", {
           "packageLocation": "./.yarn/cache/lodash.includes-npm-4.3.0-3a2f6fa22c-71092c1305.zip/node_modules/lodash.includes/",
@@ -3504,7 +3495,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["node-gyp", "npm:8.0.0"],
             ["env-paths", "npm:2.2.1"],
-            ["glob", "npm:7.1.6"],
+            ["glob", "npm:7.1.7"],
             ["graceful-fs", "npm:4.2.6"],
             ["make-fetch-happen", "npm:8.0.14"],
             ["nopt", "npm:5.0.0"],
@@ -4230,7 +4221,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/rimraf-npm-3.0.2-2cb7dac69a-87f4164e39.zip/node_modules/rimraf/",
           "packageDependencies": [
             ["rimraf", "npm:3.0.2"],
-            ["glob", "npm:7.1.6"]
+            ["glob", "npm:7.1.7"]
           ],
           "linkType": "HARD",
         }]
@@ -4703,13 +4694,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["table", [
-        ["npm:6.6.0", {
-          "packageLocation": "./.yarn/cache/table-npm-6.6.0-95099f2d7a-5a757517a1.zip/node_modules/table/",
+        ["npm:6.7.0", {
+          "packageLocation": "./.yarn/cache/table-npm-6.7.0-48a4aa68e4-96069a2eae.zip/node_modules/table/",
           "packageDependencies": [
-            ["table", "npm:6.6.0"],
+            ["table", "npm:6.7.0"],
             ["ajv", "npm:8.2.0"],
             ["lodash.clonedeep", "npm:4.5.0"],
-            ["lodash.flatten", "npm:4.4.0"],
             ["lodash.truncate", "npm:4.4.2"],
             ["slice-ansi", "npm:4.0.0"],
             ["string-width", "npm:4.2.2"],
