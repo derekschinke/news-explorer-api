@@ -2897,7 +2897,7 @@ fsevents@~2.3.1:
     mongoose: ^5.12.7
     node-gyp: ^8.0.0
     nodemon: ^2.0.7
-    prettier: ^2.2.1
+    prettier: ^2.3.0
     validator: ^13.6.0
     winston: ^3.3.3
   languageName: unknown
@@ -3299,7 +3299,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.2.1":
+"prettier@npm:^2.3.0":
   version: 2.3.0
   resolution: "prettier@npm:2.3.0"
   bin:
