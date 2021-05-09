@@ -1053,10 +1053,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "dotenv@npm:9.0.0"
-  checksum: e7fd61a6393c2abd47d97a767556d949f78fd50a2811fb6f63c0427695f135881e3603956c0abe6330c1a1a6996ea4c992a5a86dd95d4edd70189c792e331c9f
+"dotenv@npm:^9.0.1":
+  version: 9.0.1
+  resolution: "dotenv@npm:9.0.1"
+  checksum: 53bc8a5b2e46e177229e08d0468449e2f9c0a7ba8f889d4bbc63acddc3643f81fa1abf7a0eb9d19a99233fb7d05a66b31bf9474785c73d78c896127d58153b28
   languageName: node
   linkType: hard
 
@@ -2881,7 +2881,7 @@ fsevents@~2.3.1:
     bcrypt: ^5.0.1
     celebrate: ^14.0.0
     cors: ^2.8.5
-    dotenv: ^9.0.0
+    dotenv: ^9.0.1
     eslint: ^7.26.0
     eslint-config-airbnb-base: ^14.2.1
     eslint-config-prettier: ^8.3.0

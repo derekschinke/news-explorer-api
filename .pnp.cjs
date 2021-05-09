@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["bcrypt", "npm:5.0.1"],
             ["celebrate", "npm:14.0.0"],
             ["cors", "npm:2.8.5"],
-            ["dotenv", "npm:9.0.0"],
+            ["dotenv", "npm:9.0.1"],
             ["eslint", "npm:7.26.0"],
             ["eslint-config-airbnb-base", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:14.2.1"],
             ["eslint-config-prettier", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:8.3.0"],
@@ -1296,10 +1296,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["dotenv", [
-        ["npm:9.0.0", {
-          "packageLocation": "./.yarn/cache/dotenv-npm-9.0.0-94b3d52fa9-e7fd61a639.zip/node_modules/dotenv/",
+        ["npm:9.0.1", {
+          "packageLocation": "./.yarn/cache/dotenv-npm-9.0.1-c34ea48d95-53bc8a5b2e.zip/node_modules/dotenv/",
           "packageDependencies": [
-            ["dotenv", "npm:9.0.0"]
+            ["dotenv", "npm:9.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -3447,7 +3447,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["bcrypt", "npm:5.0.1"],
             ["celebrate", "npm:14.0.0"],
             ["cors", "npm:2.8.5"],
-            ["dotenv", "npm:9.0.0"],
+            ["dotenv", "npm:9.0.1"],
             ["eslint", "npm:7.26.0"],
             ["eslint-config-airbnb-base", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:14.2.1"],
             ["eslint-config-prettier", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:8.3.0"],
