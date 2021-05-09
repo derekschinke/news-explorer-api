@@ -54,7 +54,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mongoose", "npm:5.12.7"],
             ["node-gyp", "npm:8.0.0"],
             ["nodemon", "npm:2.0.7"],
-            ["prettier", "npm:2.2.1"],
+            ["prettier", "npm:2.3.0"],
             ["validator", "npm:13.6.0"],
             ["winston", "npm:3.3.3"]
           ],
@@ -381,10 +381,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:8.2.0", {
-          "packageLocation": "./.yarn/cache/ajv-npm-8.2.0-d4b6523378-36994bc227.zip/node_modules/ajv/",
+        ["npm:8.3.0", {
+          "packageLocation": "./.yarn/cache/ajv-npm-8.3.0-0782868326-eca6d99d87.zip/node_modules/ajv/",
           "packageDependencies": [
-            ["ajv", "npm:8.2.0"],
+            ["ajv", "npm:8.3.0"],
             ["fast-deep-equal", "npm:3.1.3"],
             ["json-schema-traverse", "npm:1.0.0"],
             ["require-from-string", "npm:2.0.2"],
@@ -1437,7 +1437,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["has-symbols", "npm:1.0.2"],
             ["is-callable", "npm:1.2.3"],
             ["is-negative-zero", "npm:2.0.1"],
-            ["is-regex", "npm:1.1.2"],
+            ["is-regex", "npm:1.1.3"],
             ["is-string", "npm:1.0.6"],
             ["object-inspect", "npm:1.10.3"],
             ["object-keys", "npm:1.1.1"],
@@ -1455,8 +1455,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["es-to-primitive", "npm:1.2.1"],
             ["is-callable", "npm:1.2.3"],
-            ["is-date-object", "npm:1.0.3"],
-            ["is-symbol", "npm:1.0.3"]
+            ["is-date-object", "npm:1.0.4"],
+            ["is-symbol", "npm:1.0.4"]
           ],
           "linkType": "HARD",
         }]
@@ -1658,7 +1658,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/prettier", null],
             ["eslint", "npm:7.26.0"],
             ["eslint-config-prettier", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:8.3.0"],
-            ["prettier", "npm:2.2.1"],
+            ["prettier", "npm:2.3.0"],
             ["prettier-linter-helpers", "npm:1.0.0"]
           ],
           "packagePeers": [
@@ -2547,20 +2547,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["is-core-module", [
-        ["npm:2.3.0", {
-          "packageLocation": "./.yarn/cache/is-core-module-npm-2.3.0-b7e8703f50-656ba21072.zip/node_modules/is-core-module/",
+        ["npm:2.4.0", {
+          "packageLocation": "./.yarn/cache/is-core-module-npm-2.4.0-bae19c65cd-c498902d4c.zip/node_modules/is-core-module/",
           "packageDependencies": [
-            ["is-core-module", "npm:2.3.0"],
+            ["is-core-module", "npm:2.4.0"],
             ["has", "npm:1.0.3"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["is-date-object", [
-        ["npm:1.0.3", {
-          "packageLocation": "./.yarn/cache/is-date-object-npm-1.0.3-e6989a7da9-7ed29f8426.zip/node_modules/is-date-object/",
+        ["npm:1.0.4", {
+          "packageLocation": "./.yarn/cache/is-date-object-npm-1.0.4-bc85407e70-20ce7b73fd.zip/node_modules/is-date-object/",
           "packageDependencies": [
-            ["is-date-object", "npm:1.0.3"]
+            ["is-date-object", "npm:1.0.4"]
           ],
           "linkType": "HARD",
         }]
@@ -2683,10 +2683,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["is-regex", [
-        ["npm:1.1.2", {
-          "packageLocation": "./.yarn/cache/is-regex-npm-1.1.2-0aaa524607-a1e5a451b6.zip/node_modules/is-regex/",
+        ["npm:1.1.3", {
+          "packageLocation": "./.yarn/cache/is-regex-npm-1.1.3-5a00a17388-19a831a1ba.zip/node_modules/is-regex/",
           "packageDependencies": [
-            ["is-regex", "npm:1.1.2"],
+            ["is-regex", "npm:1.1.3"],
             ["call-bind", "npm:1.0.2"],
             ["has-symbols", "npm:1.0.2"]
           ],
@@ -2712,10 +2712,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["is-symbol", [
-        ["npm:1.0.3", {
-          "packageLocation": "./.yarn/cache/is-symbol-npm-1.0.3-6bebca15dc-c6d54bd012.zip/node_modules/is-symbol/",
+        ["npm:1.0.4", {
+          "packageLocation": "./.yarn/cache/is-symbol-npm-1.0.4-eb9baac703-92805812ef.zip/node_modules/is-symbol/",
           "packageDependencies": [
-            ["is-symbol", "npm:1.0.3"],
+            ["is-symbol", "npm:1.0.4"],
             ["has-symbols", "npm:1.0.2"]
           ],
           "linkType": "HARD",
@@ -3463,7 +3463,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mongoose", "npm:5.12.7"],
             ["node-gyp", "npm:8.0.0"],
             ["nodemon", "npm:2.0.7"],
-            ["prettier", "npm:2.2.1"],
+            ["prettier", "npm:2.3.0"],
             ["validator", "npm:13.6.0"],
             ["winston", "npm:3.3.3"]
           ],
@@ -3910,10 +3910,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["prettier", [
-        ["npm:2.2.1", {
-          "packageLocation": "./.yarn/cache/prettier-npm-2.2.1-e0670992f8-800de2df3d.zip/node_modules/prettier/",
+        ["npm:2.3.0", {
+          "packageLocation": "./.yarn/cache/prettier-npm-2.3.0-29ef37e8b6-e8851a45f6.zip/node_modules/prettier/",
           "packageDependencies": [
-            ["prettier", "npm:2.2.1"]
+            ["prettier", "npm:2.3.0"]
           ],
           "linkType": "HARD",
         }]
@@ -4182,7 +4182,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/resolve-patch-da1bf0dd3c-bed00be983.zip/node_modules/resolve/",
           "packageDependencies": [
             ["resolve", "patch:resolve@npm%3A1.20.0#~builtin<compat/resolve>::version=1.20.0&hash=00b1ff"],
-            ["is-core-module", "npm:2.3.0"],
+            ["is-core-module", "npm:2.4.0"],
             ["path-parse", "npm:1.0.6"]
           ],
           "linkType": "HARD",
@@ -4698,7 +4698,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/table-npm-6.7.0-48a4aa68e4-96069a2eae.zip/node_modules/table/",
           "packageDependencies": [
             ["table", "npm:6.7.0"],
-            ["ajv", "npm:8.2.0"],
+            ["ajv", "npm:8.3.0"],
             ["lodash.clonedeep", "npm:4.5.0"],
             ["lodash.truncate", "npm:4.4.2"],
             ["slice-ansi", "npm:4.0.0"],
@@ -5036,7 +5036,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-boolean-object", "npm:1.1.1"],
             ["is-number-object", "npm:1.0.5"],
             ["is-string", "npm:1.0.6"],
-            ["is-symbol", "npm:1.0.3"]
+            ["is-symbol", "npm:1.0.4"]
           ],
           "linkType": "HARD",
         }]
