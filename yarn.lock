@@ -1053,10 +1053,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^9.0.1":
-  version: 9.0.1
-  resolution: "dotenv@npm:9.0.1"
-  checksum: 53bc8a5b2e46e177229e08d0468449e2f9c0a7ba8f889d4bbc63acddc3643f81fa1abf7a0eb9d19a99233fb7d05a66b31bf9474785c73d78c896127d58153b28
+"dotenv@npm:^9.0.2":
+  version: 9.0.2
+  resolution: "dotenv@npm:9.0.2"
+  checksum: 6b7980330a653089bc9b83362248547791151ee74f9881eb223ac2f4d641b174b708f77315d88708b551d45b4177afd3ba71bca4832f8807e003f71c2a0f83e7
   languageName: node
   linkType: hard
 
@@ -2792,9 +2792,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"mongoose@npm:5.12.7, mongoose@npm:^5.12.7":
-  version: 5.12.7
-  resolution: "mongoose@npm:5.12.7"
+"mongoose@npm:5.12.8, mongoose@npm:^5.12.8":
+  version: 5.12.8
+  resolution: "mongoose@npm:5.12.8"
   dependencies:
     "@types/mongodb": ^3.5.27
     bson: ^1.1.4
@@ -2808,7 +2808,7 @@ fsevents@~2.3.1:
     safe-buffer: 5.2.1
     sift: 13.5.2
     sliced: 1.0.1
-  checksum: 9c4597c4816c4830ece3b03cd6b1249aa6009e34fe1bba8add429ae3bb42f147b56ecd11ea783e73f26c9be8b7b89dbdf6ee50cb453c832643c08e8787075e76
+  checksum: b87edf8019961fc36c9621309586eb728bbff7448ecb4805ce0354f2fdf08ec5725f277e54741ffdd8ccc42cd4b1b398e4dc1650af8d6b8942f58f3cd76be4bd
   languageName: node
   linkType: hard
 
@@ -2881,7 +2881,7 @@ fsevents@~2.3.1:
     bcrypt: ^5.0.1
     celebrate: ^14.0.0
     cors: ^2.8.5
-    dotenv: ^9.0.1
+    dotenv: ^9.0.2
     eslint: ^7.26.0
     eslint-config-airbnb-base: ^14.2.1
     eslint-config-prettier: ^8.3.0
@@ -2894,7 +2894,7 @@ fsevents@~2.3.1:
     express-winston: ^4.1.0
     helmet: ^4.6.0
     jsonwebtoken: ^8.5.1
-    mongoose: ^5.12.7
+    mongoose: ^5.12.8
     node-gyp: ^8.0.0
     nodemon: ^2.0.7
     prettier: ^2.3.0

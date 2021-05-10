@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["bcrypt", "npm:5.0.1"],
             ["celebrate", "npm:14.0.0"],
             ["cors", "npm:2.8.5"],
-            ["dotenv", "npm:9.0.1"],
+            ["dotenv", "npm:9.0.2"],
             ["eslint", "npm:7.26.0"],
             ["eslint-config-airbnb-base", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:14.2.1"],
             ["eslint-config-prettier", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:8.3.0"],
@@ -51,7 +51,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express-winston", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:4.1.0"],
             ["helmet", "npm:4.6.0"],
             ["jsonwebtoken", "npm:8.5.1"],
-            ["mongoose", "npm:5.12.7"],
+            ["mongoose", "npm:5.12.8"],
             ["node-gyp", "npm:8.0.0"],
             ["nodemon", "npm:2.0.7"],
             ["prettier", "npm:2.3.0"],
@@ -1296,10 +1296,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["dotenv", [
-        ["npm:9.0.1", {
-          "packageLocation": "./.yarn/cache/dotenv-npm-9.0.1-c34ea48d95-53bc8a5b2e.zip/node_modules/dotenv/",
+        ["npm:9.0.2", {
+          "packageLocation": "./.yarn/cache/dotenv-npm-9.0.2-fd127dfe81-6b7980330a.zip/node_modules/dotenv/",
           "packageDependencies": [
-            ["dotenv", "npm:9.0.1"]
+            ["dotenv", "npm:9.0.2"]
           ],
           "linkType": "HARD",
         }]
@@ -3297,10 +3297,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:ed14198ecbd6400f6500b85a61db8f6fc9033f1e61bb99e8eb923580676028ad838d61966a8186a6849edd8f6d339de6e3ac91412048d17ee37c406914f5912d#npm:3.6.6", {
-          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-0f424bb9f1/0/cache/mongodb-npm-3.6.6-c047384516-b4af54df7b.zip/node_modules/mongodb/",
+        ["virtual:0b659dec2f89ca65f3f7b29f90d21680ee2682cb03796228197eb675623149a2fa68eb9df7991652a6487fa4f8a7dfbf3c888ba35eb8315504d0bfc06d89da74#npm:3.6.6", {
+          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-7ba3d31312/0/cache/mongodb-npm-3.6.6-c047384516-b4af54df7b.zip/node_modules/mongodb/",
           "packageDependencies": [
-            ["mongodb", "virtual:ed14198ecbd6400f6500b85a61db8f6fc9033f1e61bb99e8eb923580676028ad838d61966a8186a6849edd8f6d339de6e3ac91412048d17ee37c406914f5912d#npm:3.6.6"],
+            ["mongodb", "virtual:0b659dec2f89ca65f3f7b29f90d21680ee2682cb03796228197eb675623149a2fa68eb9df7991652a6487fa4f8a7dfbf3c888ba35eb8315504d0bfc06d89da74#npm:3.6.6"],
             ["aws4", null],
             ["bl", "npm:2.2.1"],
             ["bson", "npm:1.1.6"],
@@ -3326,15 +3326,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["mongoose", [
-        ["npm:5.12.7", {
-          "packageLocation": "./.yarn/cache/mongoose-npm-5.12.7-ed14198ecb-9c4597c481.zip/node_modules/mongoose/",
+        ["npm:5.12.8", {
+          "packageLocation": "./.yarn/cache/mongoose-npm-5.12.8-0b659dec2f-b87edf8019.zip/node_modules/mongoose/",
           "packageDependencies": [
-            ["mongoose", "npm:5.12.7"],
+            ["mongoose", "npm:5.12.8"],
             ["@types/mongodb", "npm:3.6.12"],
             ["bson", "npm:1.1.6"],
             ["kareem", "npm:2.3.2"],
-            ["mongodb", "virtual:ed14198ecbd6400f6500b85a61db8f6fc9033f1e61bb99e8eb923580676028ad838d61966a8186a6849edd8f6d339de6e3ac91412048d17ee37c406914f5912d#npm:3.6.6"],
-            ["mongoose-legacy-pluralize", "virtual:ed14198ecbd6400f6500b85a61db8f6fc9033f1e61bb99e8eb923580676028ad838d61966a8186a6849edd8f6d339de6e3ac91412048d17ee37c406914f5912d#npm:1.0.2"],
+            ["mongodb", "virtual:0b659dec2f89ca65f3f7b29f90d21680ee2682cb03796228197eb675623149a2fa68eb9df7991652a6487fa4f8a7dfbf3c888ba35eb8315504d0bfc06d89da74#npm:3.6.6"],
+            ["mongoose-legacy-pluralize", "virtual:0b659dec2f89ca65f3f7b29f90d21680ee2682cb03796228197eb675623149a2fa68eb9df7991652a6487fa4f8a7dfbf3c888ba35eb8315504d0bfc06d89da74#npm:1.0.2"],
             ["mpath", "npm:0.8.3"],
             ["mquery", "npm:3.2.5"],
             ["ms", "npm:2.1.2"],
@@ -3354,12 +3354,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:ed14198ecbd6400f6500b85a61db8f6fc9033f1e61bb99e8eb923580676028ad838d61966a8186a6849edd8f6d339de6e3ac91412048d17ee37c406914f5912d#npm:1.0.2", {
-          "packageLocation": "./.yarn/__virtual__/mongoose-legacy-pluralize-virtual-3c9486a866/0/cache/mongoose-legacy-pluralize-npm-1.0.2-2fbdda9a5a-8312c20882.zip/node_modules/mongoose-legacy-pluralize/",
+        ["virtual:0b659dec2f89ca65f3f7b29f90d21680ee2682cb03796228197eb675623149a2fa68eb9df7991652a6487fa4f8a7dfbf3c888ba35eb8315504d0bfc06d89da74#npm:1.0.2", {
+          "packageLocation": "./.yarn/__virtual__/mongoose-legacy-pluralize-virtual-e8ba252c14/0/cache/mongoose-legacy-pluralize-npm-1.0.2-2fbdda9a5a-8312c20882.zip/node_modules/mongoose-legacy-pluralize/",
           "packageDependencies": [
-            ["mongoose-legacy-pluralize", "virtual:ed14198ecbd6400f6500b85a61db8f6fc9033f1e61bb99e8eb923580676028ad838d61966a8186a6849edd8f6d339de6e3ac91412048d17ee37c406914f5912d#npm:1.0.2"],
+            ["mongoose-legacy-pluralize", "virtual:0b659dec2f89ca65f3f7b29f90d21680ee2682cb03796228197eb675623149a2fa68eb9df7991652a6487fa4f8a7dfbf3c888ba35eb8315504d0bfc06d89da74#npm:1.0.2"],
             ["@types/mongoose", null],
-            ["mongoose", "npm:5.12.7"]
+            ["mongoose", "npm:5.12.8"]
           ],
           "packagePeers": [
             "@types/mongoose",
@@ -3447,7 +3447,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["bcrypt", "npm:5.0.1"],
             ["celebrate", "npm:14.0.0"],
             ["cors", "npm:2.8.5"],
-            ["dotenv", "npm:9.0.1"],
+            ["dotenv", "npm:9.0.2"],
             ["eslint", "npm:7.26.0"],
             ["eslint-config-airbnb-base", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:14.2.1"],
             ["eslint-config-prettier", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:8.3.0"],
@@ -3460,7 +3460,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express-winston", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:4.1.0"],
             ["helmet", "npm:4.6.0"],
             ["jsonwebtoken", "npm:8.5.1"],
-            ["mongoose", "npm:5.12.7"],
+            ["mongoose", "npm:5.12.8"],
             ["node-gyp", "npm:8.0.0"],
             ["nodemon", "npm:2.0.7"],
             ["prettier", "npm:2.3.0"],
