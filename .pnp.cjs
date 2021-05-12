@@ -231,7 +231,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-bson-npm-4.0.3-4ec8c44242-38e80ef424.zip/node_modules/@types/bson/",
           "packageDependencies": [
             ["@types/bson", "npm:4.0.3"],
-            ["@types/node", "npm:15.0.2"]
+            ["@types/node", "npm:15.0.3"]
           ],
           "linkType": "HARD",
         }]
@@ -250,7 +250,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-keyv-npm-3.1.1-779a80f2c7-ee0d098693.zip/node_modules/@types/keyv/",
           "packageDependencies": [
             ["@types/keyv", "npm:3.1.1"],
-            ["@types/node", "npm:15.0.2"]
+            ["@types/node", "npm:15.0.3"]
           ],
           "linkType": "HARD",
         }]
@@ -261,16 +261,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@types/mongodb", "npm:3.6.12"],
             ["@types/bson", "npm:4.0.3"],
-            ["@types/node", "npm:15.0.2"]
+            ["@types/node", "npm:15.0.3"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@types/node", [
-        ["npm:15.0.2", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-15.0.2-433fc3c944-273565e1da.zip/node_modules/@types/node/",
+        ["npm:15.0.3", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-15.0.3-c1e3679a3e-555d1ccfca.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:15.0.2"]
+            ["@types/node", "npm:15.0.3"]
           ],
           "linkType": "HARD",
         }]
@@ -280,7 +280,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-responselike-npm-1.0.0-85dd08af42-e99fc7cc62.zip/node_modules/@types/responselike/",
           "packageDependencies": [
             ["@types/responselike", "npm:1.0.0"],
-            ["@types/node", "npm:15.0.2"]
+            ["@types/node", "npm:15.0.3"]
           ],
           "linkType": "HARD",
         }]
