@@ -77,8 +77,8 @@ __metadata:
   linkType: hard
 
 "@mapbox/node-pre-gyp@npm:^1.0.0":
-  version: 1.0.4
-  resolution: "@mapbox/node-pre-gyp@npm:1.0.4"
+  version: 1.0.5
+  resolution: "@mapbox/node-pre-gyp@npm:1.0.5"
   dependencies:
     detect-libc: ^1.0.3
     https-proxy-agent: ^5.0.0
@@ -91,7 +91,7 @@ __metadata:
     tar: ^6.1.0
   bin:
     node-pre-gyp: bin/node-pre-gyp
-  checksum: 088fc628d9933e41c090cc45201f19a13362672f961618e90cc927fb2c96070b339addaf06d88495156d76252ed27915c8fa2c1c96bd25ffa7e1db0670d166d2
+  checksum: c1f182a707f5782e47b77a76e9d6a073fb043999cf9ad965bc86732e88db27ad00926d1602918edb7105f05cde67871b84a178ee9844eb742319ade419636675
   languageName: node
   linkType: hard
 

@@ -142,10 +142,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@mapbox/node-pre-gyp", [
-        ["npm:1.0.4", {
-          "packageLocation": "./.yarn/cache/@mapbox-node-pre-gyp-npm-1.0.4-b262be8310-088fc628d9.zip/node_modules/@mapbox/node-pre-gyp/",
+        ["npm:1.0.5", {
+          "packageLocation": "./.yarn/cache/@mapbox-node-pre-gyp-npm-1.0.5-4e17430ec9-c1f182a707.zip/node_modules/@mapbox/node-pre-gyp/",
           "packageDependencies": [
-            ["@mapbox/node-pre-gyp", "npm:1.0.4"],
+            ["@mapbox/node-pre-gyp", "npm:1.0.5"],
             ["detect-libc", "npm:1.0.3"],
             ["https-proxy-agent", "npm:5.0.0"],
             ["make-dir", "npm:3.1.0"],
@@ -568,7 +568,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/unplugged/bcrypt-npm-5.0.1-6815be1cfe/node_modules/bcrypt/",
           "packageDependencies": [
             ["bcrypt", "npm:5.0.1"],
-            ["@mapbox/node-pre-gyp", "npm:1.0.4"],
+            ["@mapbox/node-pre-gyp", "npm:1.0.5"],
             ["node-addon-api", "npm:3.1.0"]
           ],
           "linkType": "HARD",
