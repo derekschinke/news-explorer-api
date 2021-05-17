@@ -569,7 +569,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["bcrypt", "npm:5.0.1"],
             ["@mapbox/node-pre-gyp", "npm:1.0.5"],
-            ["node-addon-api", "npm:3.1.0"]
+            ["node-addon-api", "npm:3.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -3496,10 +3496,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["node-addon-api", [
-        ["npm:3.1.0", {
-          "packageLocation": "./.yarn/unplugged/node-addon-api-npm-3.1.0-a15037f88c/node_modules/node-addon-api/",
+        ["npm:3.2.0", {
+          "packageLocation": "./.yarn/unplugged/node-addon-api-npm-3.2.0-061ff0dbab/node_modules/node-addon-api/",
           "packageDependencies": [
-            ["node-addon-api", "npm:3.1.0"],
+            ["node-addon-api", "npm:3.2.0"],
             ["node-gyp", "npm:8.0.0"]
           ],
           "linkType": "HARD",
@@ -4527,7 +4527,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["spdx-correct", "npm:3.1.1"],
             ["spdx-expression-parse", "npm:3.0.1"],
-            ["spdx-license-ids", "npm:3.0.7"]
+            ["spdx-license-ids", "npm:3.0.8"]
           ],
           "linkType": "HARD",
         }]
@@ -4547,16 +4547,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["spdx-expression-parse", "npm:3.0.1"],
             ["spdx-exceptions", "npm:2.3.0"],
-            ["spdx-license-ids", "npm:3.0.7"]
+            ["spdx-license-ids", "npm:3.0.8"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["spdx-license-ids", [
-        ["npm:3.0.7", {
-          "packageLocation": "./.yarn/cache/spdx-license-ids-npm-3.0.7-f2c686cec2-b52a88aebc.zip/node_modules/spdx-license-ids/",
+        ["npm:3.0.8", {
+          "packageLocation": "./.yarn/cache/spdx-license-ids-npm-3.0.8-1b3b627cc1-fb9ed29f99.zip/node_modules/spdx-license-ids/",
           "packageDependencies": [
-            ["spdx-license-ids", "npm:3.0.7"]
+            ["spdx-license-ids", "npm:3.0.8"]
           ],
           "linkType": "HARD",
         }]

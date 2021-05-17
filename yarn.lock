@@ -2916,11 +2916,11 @@ fsevents@~2.3.1:
   linkType: soft
 
 "node-addon-api@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "node-addon-api@npm:3.1.0"
+  version: 3.2.0
+  resolution: "node-addon-api@npm:3.2.0"
   dependencies:
     node-gyp: latest
-  checksum: 76a32f1e809aacc7d4a05e764bac2a41ba72d07ea859d329f0f0f2b9d5b4e04cbc4889312eae5150e8dad3ea2fe57ebebe63453cb12ac991c0c639a39c0d49c3
+  checksum: 538893f075a2f70b659e0ae82bdb2cd627b1b76ddcc9c39e95dc8ff4be786e9f6766ed2aac7d4159f879f0c49a3551636f6d09907865afc5643703e1752e4c3e
   languageName: node
   linkType: hard
 
@@ -3855,9 +3855,9 @@ fsevents@~2.3.1:
   linkType: hard
 
 "spdx-license-ids@npm:^3.0.0":
-  version: 3.0.7
-  resolution: "spdx-license-ids@npm:3.0.7"
-  checksum: b52a88aebc19b4c69049349939e1948014c4d10f52a11870431fc1cc6551de411d19e4570f5f1df2d8b7089bec921df9017a3d5199ae2468b2b432171945278e
+  version: 3.0.8
+  resolution: "spdx-license-ids@npm:3.0.8"
+  checksum: fb9ed29f995421a3a6c0ca12bf55abe733a53259c8e079e2c6ff91fbf1faee047bb0553e340addf1e88eb65ff5f219d17df32382965dcfcbc54c9eaef31cec1d
   languageName: node
   linkType: hard
 
