@@ -177,12 +177,12 @@ __metadata:
   linkType: hard
 
 "@types/mongodb@npm:^3.5.27":
-  version: 3.6.13
-  resolution: "@types/mongodb@npm:3.6.13"
+  version: 3.6.14
+  resolution: "@types/mongodb@npm:3.6.14"
   dependencies:
     "@types/bson": "*"
     "@types/node": "*"
-  checksum: 3dd7423a25dfba4d621ed826702571e1e61e6b3e907b345fc7c8fcd62302483ffa71652587be684e3ee56e135cc2ccbc8995f76e8b6a62d596a7c5efd74d5d10
+  checksum: 55ec74eb650daee2e0280bbc8429880e5e30499d2878c4332bf80cb3c4b1bf8de99d408294b299a92d4516a31caab7a89ec1062661a67719438927399364951a
   languageName: node
   linkType: hard
 
@@ -550,8 +550,8 @@ __metadata:
   linkType: hard
 
 "cacache@npm:^15.0.5":
-  version: 15.0.6
-  resolution: "cacache@npm:15.0.6"
+  version: 15.1.0
+  resolution: "cacache@npm:15.1.0"
   dependencies:
     "@npmcli/move-file": ^1.0.1
     chownr: ^2.0.0
@@ -570,7 +570,7 @@ __metadata:
     ssri: ^8.0.1
     tar: ^6.0.2
     unique-filename: ^1.1.1
-  checksum: b5f2595de5af40b71adab709add2716506b660c204b3f096f9fce49f48161765e0ca30ea90bfd64cb7f24db7a6be2e8f6bf777217696291f1383810f71e7acb5
+  checksum: e63d1651cf95a23bdc4be9408a2398319c4a549b926a193b3ae368db10de751e47dab607fb20c734d26996a9ed43505baed18257b0c88e140e663611d0bfaad4
   languageName: node
   linkType: hard
 
