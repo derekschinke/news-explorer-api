@@ -177,12 +177,12 @@ __metadata:
   linkType: hard
 
 "@types/mongodb@npm:^3.5.27":
-  version: 3.6.14
-  resolution: "@types/mongodb@npm:3.6.14"
+  version: 3.6.15
+  resolution: "@types/mongodb@npm:3.6.15"
   dependencies:
     "@types/bson": "*"
     "@types/node": "*"
-  checksum: 55ec74eb650daee2e0280bbc8429880e5e30499d2878c4332bf80cb3c4b1bf8de99d408294b299a92d4516a31caab7a89ec1062661a67719438927399364951a
+  checksum: c44576cf0ed9bd50a023ad9535a040d126900933fc88986b7d4f4d9376cb9273b28afa92b17ef58eb70d8d2c3a985749d5e00be4ca21378b2db62ef1aae71d78
   languageName: node
   linkType: hard
 

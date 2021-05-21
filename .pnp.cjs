@@ -256,10 +256,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/mongodb", [
-        ["npm:3.6.14", {
-          "packageLocation": "./.yarn/cache/@types-mongodb-npm-3.6.14-0e9a8105f1-55ec74eb65.zip/node_modules/@types/mongodb/",
+        ["npm:3.6.15", {
+          "packageLocation": "./.yarn/cache/@types-mongodb-npm-3.6.15-0111938b6f-c44576cf0e.zip/node_modules/@types/mongodb/",
           "packageDependencies": [
-            ["@types/mongodb", "npm:3.6.14"],
+            ["@types/mongodb", "npm:3.6.15"],
             ["@types/bson", "npm:4.0.3"],
             ["@types/node", "npm:15.3.1"]
           ],
@@ -3355,7 +3355,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/mongoose-npm-5.12.10-65dbcbe2ca-2bb91fe668.zip/node_modules/mongoose/",
           "packageDependencies": [
             ["mongoose", "npm:5.12.10"],
-            ["@types/mongodb", "npm:3.6.14"],
+            ["@types/mongodb", "npm:3.6.15"],
             ["bson", "npm:1.1.6"],
             ["kareem", "npm:2.3.2"],
             ["mongodb", "virtual:65dbcbe2ca04cff986aa4034f37a536e2f7fb11493c285a3e94db4d0b8e9e3c89c3879ede7486aa21a09a3660667ebd97296061239d0a409ce6f872b156bacdc#npm:3.6.6"],
