@@ -3835,9 +3835,9 @@ fsevents@~2.3.1:
   linkType: hard
 
 "spdx-license-ids@npm:^3.0.0":
-  version: 3.0.8
-  resolution: "spdx-license-ids@npm:3.0.8"
-  checksum: fb9ed29f995421a3a6c0ca12bf55abe733a53259c8e079e2c6ff91fbf1faee047bb0553e340addf1e88eb65ff5f219d17df32382965dcfcbc54c9eaef31cec1d
+  version: 3.0.9
+  resolution: "spdx-license-ids@npm:3.0.9"
+  checksum: 021c632a458b3f5144587350ee1e6d0da8e211c4acdeb511a89699ac7de5e9b84860aaea38b6b9b631b9fed8d3199a763b6baf96db4a2a77dc7c9c8ee6172288
   languageName: node
   linkType: hard
 
