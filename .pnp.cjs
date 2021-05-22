@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["celebrate", "npm:14.0.0"],
             ["cors", "npm:2.8.5"],
             ["dotenv", "npm:10.0.0"],
-            ["eslint", "npm:7.26.0"],
+            ["eslint", "npm:7.27.0"],
             ["eslint-config-airbnb-base", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:14.2.1"],
             ["eslint-config-prettier", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:8.3.0"],
             ["eslint-import-resolver-node", "npm:0.3.4"],
@@ -466,7 +466,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["anymatch", "npm:3.1.2"],
             ["normalize-path", "npm:3.0.0"],
-            ["picomatch", "npm:2.2.3"]
+            ["picomatch", "npm:2.3.0"]
           ],
           "linkType": "HARD",
         }]
@@ -1488,13 +1488,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["escape-string-regexp", "npm:1.0.5"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:4.0.0", {
+          "packageLocation": "./.yarn/cache/escape-string-regexp-npm-4.0.0-4b531d8d59-98b48897d9.zip/node_modules/escape-string-regexp/",
+          "packageDependencies": [
+            ["escape-string-regexp", "npm:4.0.0"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["eslint", [
-        ["npm:7.26.0", {
-          "packageLocation": "./.yarn/cache/eslint-npm-7.26.0-0bcc96e5d3-6178eeb1bf.zip/node_modules/eslint/",
+        ["npm:7.27.0", {
+          "packageLocation": "./.yarn/cache/eslint-npm-7.27.0-864db248b7-f45eb40e77.zip/node_modules/eslint/",
           "packageDependencies": [
-            ["eslint", "npm:7.26.0"],
+            ["eslint", "npm:7.27.0"],
             ["@babel/code-frame", "npm:7.12.11"],
             ["@eslint/eslintrc", "npm:0.4.1"],
             ["ajv", "npm:6.12.6"],
@@ -1503,12 +1510,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debug", "virtual:428f325a939c2653ad822eb3d75efb02ac311523dd0d4f9645afc39ea00bd86eceac35a9d59c9b6977d76b670a4ef0ae057ea572338a44729aa592711a8c05a3#npm:4.3.2"],
             ["doctrine", "npm:3.0.0"],
             ["enquirer", "npm:2.3.6"],
+            ["escape-string-regexp", "npm:4.0.0"],
             ["eslint-scope", "npm:5.1.1"],
             ["eslint-utils", "npm:2.1.0"],
             ["eslint-visitor-keys", "npm:2.1.0"],
             ["espree", "npm:7.3.1"],
             ["esquery", "npm:1.4.0"],
             ["esutils", "npm:2.0.3"],
+            ["fast-deep-equal", "npm:3.1.3"],
             ["file-entry-cache", "npm:6.0.1"],
             ["functional-red-black-tree", "npm:1.0.1"],
             ["glob-parent", "npm:5.1.2"],
@@ -1520,7 +1529,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["js-yaml", "npm:3.14.1"],
             ["json-stable-stringify-without-jsonify", "npm:1.0.1"],
             ["levn", "npm:0.4.1"],
-            ["lodash", "npm:4.17.21"],
+            ["lodash.merge", "npm:4.6.2"],
             ["minimatch", "npm:3.0.4"],
             ["natural-compare", "npm:1.4.0"],
             ["optionator", "npm:0.9.1"],
@@ -1551,7 +1560,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/eslint", null],
             ["@types/eslint-plugin-import", null],
             ["confusing-browser-globals", "npm:1.0.10"],
-            ["eslint", "npm:7.26.0"],
+            ["eslint", "npm:7.27.0"],
             ["eslint-plugin-import", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:2.23.3"],
             ["object.assign", "npm:4.1.2"],
             ["object.entries", "npm:1.1.3"]
@@ -1578,7 +1587,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["eslint-config-prettier", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:8.3.0"],
             ["@types/eslint", null],
-            ["eslint", "npm:7.26.0"]
+            ["eslint", "npm:7.27.0"]
           ],
           "packagePeers": [
             "@types/eslint",
@@ -1626,7 +1635,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["array.prototype.flat", "npm:1.2.4"],
             ["debug", "virtual:fa0173d26738ef894de6f639abae81ef8c1dc3fb742f450a622367c86186d9f4d23dbd3bcc38bbe27382c39f87e11cad6137dd70480a36e752eee25974706e2c#npm:2.6.9"],
             ["doctrine", "npm:2.1.0"],
-            ["eslint", "npm:7.26.0"],
+            ["eslint", "npm:7.27.0"],
             ["eslint-import-resolver-node", "npm:0.3.4"],
             ["eslint-module-utils", "npm:2.6.1"],
             ["find-up", "npm:2.1.0"],
@@ -1660,7 +1669,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:3.4.0"],
             ["@types/eslint", null],
             ["@types/prettier", null],
-            ["eslint", "npm:7.26.0"],
+            ["eslint", "npm:7.27.0"],
             ["eslint-config-prettier", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:8.3.0"],
             ["prettier", "npm:2.3.0"],
             ["prettier-linter-helpers", "npm:1.0.0"]
@@ -3035,6 +3044,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["lodash.merge", [
+        ["npm:4.6.2", {
+          "packageLocation": "./.yarn/cache/lodash.merge-npm-4.6.2-77cb4416bf-ad580b4bdb.zip/node_modules/lodash.merge/",
+          "packageDependencies": [
+            ["lodash.merge", "npm:4.6.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["lodash.once", [
         ["npm:4.1.1", {
           "packageLocation": "./.yarn/cache/lodash.once-npm-4.1.1-d8ba329ead-d768fa9f9b.zip/node_modules/lodash.once/",
@@ -3461,7 +3479,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["celebrate", "npm:14.0.0"],
             ["cors", "npm:2.8.5"],
             ["dotenv", "npm:10.0.0"],
-            ["eslint", "npm:7.26.0"],
+            ["eslint", "npm:7.27.0"],
             ["eslint-config-airbnb-base", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:14.2.1"],
             ["eslint-config-prettier", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:8.3.0"],
             ["eslint-import-resolver-node", "npm:0.3.4"],
@@ -3878,10 +3896,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["picomatch", [
-        ["npm:2.2.3", {
-          "packageLocation": "./.yarn/cache/picomatch-npm-2.2.3-3797e21cf0-45e2b882b5.zip/node_modules/picomatch/",
+        ["npm:2.3.0", {
+          "packageLocation": "./.yarn/cache/picomatch-npm-2.3.0-5e60e6c82d-16818720ea.zip/node_modules/picomatch/",
           "packageDependencies": [
-            ["picomatch", "npm:2.2.3"]
+            ["picomatch", "npm:2.3.0"]
           ],
           "linkType": "HARD",
         }]
@@ -4149,7 +4167,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/readdirp-npm-3.5.0-a1b1568d32-6b1a9341e2.zip/node_modules/readdirp/",
           "packageDependencies": [
             ["readdirp", "npm:3.5.0"],
-            ["picomatch", "npm:2.2.3"]
+            ["picomatch", "npm:2.3.0"]
           ],
           "linkType": "HARD",
         }]
