@@ -2770,14 +2770,14 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"mongodb@npm:3.6.6":
-  version: 3.6.6
-  resolution: "mongodb@npm:3.6.6"
+"mongodb@npm:3.6.8":
+  version: 3.6.8
+  resolution: "mongodb@npm:3.6.8"
   dependencies:
     bl: ^2.2.1
     bson: ^1.1.4
     denque: ^1.4.1
-    optional-require: ^1.0.2
+    optional-require: ^1.0.3
     safe-buffer: ^5.1.2
     saslprep: ^1.0.0
   dependenciesMeta:
@@ -2796,7 +2796,7 @@ fsevents@~2.3.1:
       optional: true
     snappy:
       optional: true
-  checksum: b4af54df7bd1ada247e0baf77601e520493ac3d36a68d40c7bc16f53505868af4f9791b944dad22f7480d6160c904c9ab4acfab10f57b48ba701358c545d7c17
+  checksum: 96e0037cef965e77b355054d88351fb7f6478911537a701d5ce5233175209ccaa037f9bb96fab388a559cb47fb5700d0cd78328a6c168a0606de70f891fe7916
   languageName: node
   linkType: hard
 
@@ -2809,14 +2809,14 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"mongoose@npm:5.12.10, mongoose@npm:^5.12.10":
-  version: 5.12.10
-  resolution: "mongoose@npm:5.12.10"
+"mongoose@npm:5.12.11, mongoose@npm:^5.12.11":
+  version: 5.12.11
+  resolution: "mongoose@npm:5.12.11"
   dependencies:
     "@types/mongodb": ^3.5.27
     bson: ^1.1.4
     kareem: 2.3.2
-    mongodb: 3.6.6
+    mongodb: 3.6.8
     mongoose-legacy-pluralize: 1.0.2
     mpath: 0.8.3
     mquery: 3.2.5
@@ -2825,7 +2825,7 @@ fsevents@~2.3.1:
     safe-buffer: 5.2.1
     sift: 13.5.2
     sliced: 1.0.1
-  checksum: 2bb91fe668a3aabeb23e1f995df671c7d9257cc7814ccde7aedb45e1d90431867eb7dd42ac5335635d8ad9f74bcf8020945e676cf782d0275e6b0caa5cc452dd
+  checksum: b3d77a5def9b6ed8b6ec134b6dc651343170830e8ec97dd578af8d3e87b90d2819c5b401ff6154fe08834ff1fa3231926c167d4823cad85cb7af7da66b4a86bc
   languageName: node
   linkType: hard
 
@@ -2911,7 +2911,7 @@ fsevents@~2.3.1:
     express-winston: ^4.1.0
     helmet: ^4.6.0
     jsonwebtoken: ^8.5.1
-    mongoose: ^5.12.10
+    mongoose: ^5.12.11
     node-gyp: ^8.0.0
     nodemon: ^2.0.7
     prettier: ^2.3.0
@@ -3127,7 +3127,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"optional-require@npm:^1.0.2":
+"optional-require@npm:^1.0.3":
   version: 1.0.3
   resolution: "optional-require@npm:1.0.3"
   checksum: 113d376ee2a130afbca1610c17f25f4d1d7c7e42029f3b4d56334ee5408fec2c3fe31617abdb699025cced274d75fd6f0b2ed5eb49bec47acabeecc3feb76f19
