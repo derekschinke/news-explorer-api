@@ -723,7 +723,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["http-cache-semantics", "npm:4.1.0"],
             ["keyv", "npm:3.1.0"],
             ["lowercase-keys", "npm:2.0.0"],
-            ["normalize-url", "npm:4.5.0"],
+            ["normalize-url", "npm:4.5.1"],
             ["responselike", "npm:1.0.2"]
           ],
           "linkType": "HARD",
@@ -1373,7 +1373,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/encoding-npm-0.1.13-82a1837d30-bb98632f8f.zip/node_modules/encoding/",
           "packageDependencies": [
             ["encoding", "npm:0.1.13"],
-            ["iconv-lite", "npm:0.6.2"]
+            ["iconv-lite", "npm:0.6.3"]
           ],
           "linkType": "HARD",
         }]
@@ -2360,10 +2360,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:0.6.2", {
-          "packageLocation": "./.yarn/cache/iconv-lite-npm-0.6.2-13e85ec7dc-03e03eb9fc.zip/node_modules/iconv-lite/",
+        ["npm:0.6.3", {
+          "packageLocation": "./.yarn/cache/iconv-lite-npm-0.6.3-24b8aae27e-3f60d47a5c.zip/node_modules/iconv-lite/",
           "packageDependencies": [
-            ["iconv-lite", "npm:0.6.2"],
+            ["iconv-lite", "npm:0.6.3"],
             ["safer-buffer", "npm:2.1.2"]
           ],
           "linkType": "HARD",
@@ -3599,10 +3599,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["normalize-url", [
-        ["npm:4.5.0", {
-          "packageLocation": "./.yarn/cache/normalize-url-npm-4.5.0-14a0c5430f-34e9d01095.zip/node_modules/normalize-url/",
+        ["npm:4.5.1", {
+          "packageLocation": "./.yarn/cache/normalize-url-npm-4.5.1-603d40bc18-9a9dee01df.zip/node_modules/normalize-url/",
           "packageDependencies": [
-            ["normalize-url", "npm:4.5.0"]
+            ["normalize-url", "npm:4.5.1"]
           ],
           "linkType": "HARD",
         }]
