@@ -1521,7 +1521,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["file-entry-cache", "npm:6.0.1"],
             ["functional-red-black-tree", "npm:1.0.1"],
             ["glob-parent", "npm:5.1.2"],
-            ["globals", "npm:13.8.0"],
+            ["globals", "npm:13.9.0"],
             ["ignore", "npm:4.0.6"],
             ["import-fresh", "npm:3.3.0"],
             ["imurmurhash", "npm:0.1.4"],
@@ -1563,7 +1563,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:7.27.0"],
             ["eslint-plugin-import", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:2.23.3"],
             ["object.assign", "npm:4.1.2"],
-            ["object.entries", "npm:1.1.3"]
+            ["object.entries", "npm:1.1.4"]
           ],
           "packagePeers": [
             "@types/eslint-plugin-import",
@@ -1642,7 +1642,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["has", "npm:1.0.3"],
             ["is-core-module", "npm:2.4.0"],
             ["minimatch", "npm:3.0.4"],
-            ["object.values", "npm:1.1.3"],
+            ["object.values", "npm:1.1.4"],
             ["pkg-up", "npm:2.0.0"],
             ["read-pkg-up", "npm:3.0.0"],
             ["resolve", "patch:resolve@npm%3A1.20.0#~builtin<compat/resolve>::version=1.20.0&hash=00b1ff"],
@@ -2163,10 +2163,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:13.8.0", {
-          "packageLocation": "./.yarn/cache/globals-npm-13.8.0-0988f60ed8-acbfcad2b8.zip/node_modules/globals/",
+        ["npm:13.9.0", {
+          "packageLocation": "./.yarn/cache/globals-npm-13.9.0-364a8ebd6b-566b29b475.zip/node_modules/globals/",
           "packageDependencies": [
-            ["globals", "npm:13.8.0"],
+            ["globals", "npm:13.9.0"],
             ["type-fest", "npm:0.20.2"]
           ],
           "linkType": "HARD",
@@ -3670,27 +3670,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["object.entries", [
-        ["npm:1.1.3", {
-          "packageLocation": "./.yarn/cache/object.entries-npm-1.1.3-204f993709-2622ac94f8.zip/node_modules/object.entries/",
+        ["npm:1.1.4", {
+          "packageLocation": "./.yarn/cache/object.entries-npm-1.1.4-d381ab8800-1ddd2e28f5.zip/node_modules/object.entries/",
           "packageDependencies": [
-            ["object.entries", "npm:1.1.3"],
+            ["object.entries", "npm:1.1.4"],
             ["call-bind", "npm:1.0.2"],
             ["define-properties", "npm:1.1.3"],
-            ["es-abstract", "npm:1.18.2"],
-            ["has", "npm:1.0.3"]
+            ["es-abstract", "npm:1.18.2"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["object.values", [
-        ["npm:1.1.3", {
-          "packageLocation": "./.yarn/cache/object.values-npm-1.1.3-dd86635500-8b29bd0936.zip/node_modules/object.values/",
+        ["npm:1.1.4", {
+          "packageLocation": "./.yarn/cache/object.values-npm-1.1.4-2812105455-1a2f1e9d0b.zip/node_modules/object.values/",
           "packageDependencies": [
-            ["object.values", "npm:1.1.3"],
+            ["object.values", "npm:1.1.4"],
             ["call-bind", "npm:1.0.2"],
             ["define-properties", "npm:1.1.3"],
-            ["es-abstract", "npm:1.18.2"],
-            ["has", "npm:1.0.3"]
+            ["es-abstract", "npm:1.18.2"]
           ],
           "linkType": "HARD",
         }]
