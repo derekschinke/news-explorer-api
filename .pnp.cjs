@@ -51,8 +51,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express-winston", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:4.1.0"],
             ["helmet", "npm:4.6.0"],
             ["jsonwebtoken", "npm:8.5.1"],
-            ["mongoose", "npm:5.12.11"],
-            ["node-gyp", "npm:8.0.0"],
+            ["mongoose", "npm:5.12.12"],
+            ["node-gyp", "npm:8.1.0"],
             ["nodemon", "npm:2.0.7"],
             ["prettier", "npm:2.3.0"],
             ["validator", "npm:13.6.0"],
@@ -517,7 +517,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["array-includes", "npm:3.1.3"],
             ["call-bind", "npm:1.0.2"],
             ["define-properties", "npm:1.1.3"],
-            ["es-abstract", "npm:1.18.2"],
+            ["es-abstract", "npm:1.18.3"],
             ["get-intrinsic", "npm:1.1.1"],
             ["is-string", "npm:1.0.6"]
           ],
@@ -531,7 +531,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["array.prototype.flat", "npm:1.2.4"],
             ["call-bind", "npm:1.0.2"],
             ["define-properties", "npm:1.1.3"],
-            ["es-abstract", "npm:1.18.2"]
+            ["es-abstract", "npm:1.18.3"]
           ],
           "linkType": "HARD",
         }]
@@ -1427,10 +1427,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["es-abstract", [
-        ["npm:1.18.2", {
-          "packageLocation": "./.yarn/cache/es-abstract-npm-1.18.2-ee971e1874-ccbdae78b9.zip/node_modules/es-abstract/",
+        ["npm:1.18.3", {
+          "packageLocation": "./.yarn/cache/es-abstract-npm-1.18.3-d113127c45-6bbf526b5a.zip/node_modules/es-abstract/",
           "packageDependencies": [
-            ["es-abstract", "npm:1.18.2"],
+            ["es-abstract", "npm:1.18.3"],
             ["call-bind", "npm:1.0.2"],
             ["es-to-primitive", "npm:1.2.1"],
             ["function-bind", "npm:1.1.1"],
@@ -2049,7 +2049,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/unplugged/fsevents-patch-34a78773f2/node_modules/fsevents/",
           "packageDependencies": [
             ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=1cc4b2"],
-            ["node-gyp", "npm:8.0.0"]
+            ["node-gyp", "npm:8.1.0"]
           ],
           "linkType": "HARD",
         }]
@@ -3328,10 +3328,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:f3aeaff975bc4436e4ec9e45d02d8b3214c53c15597a57dd18608681aaf7ffea58deaac1e497ab2c1ad89aeb5e8d2bd3c045663279ceac63d39562f0b6778e4a#npm:3.6.8", {
-          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-16afbc13d9/0/cache/mongodb-npm-3.6.8-6e13179694-96e0037cef.zip/node_modules/mongodb/",
+        ["virtual:475615247b1295324f6ef12108660f6c49274ef13d1ef5409755687ce2bb726e8bf367f1889271979009f5efd427cc48270ff94c4ea3c8a2d9127ffed1c50620#npm:3.6.8", {
+          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-5001964d1a/0/cache/mongodb-npm-3.6.8-6e13179694-96e0037cef.zip/node_modules/mongodb/",
           "packageDependencies": [
-            ["mongodb", "virtual:f3aeaff975bc4436e4ec9e45d02d8b3214c53c15597a57dd18608681aaf7ffea58deaac1e497ab2c1ad89aeb5e8d2bd3c045663279ceac63d39562f0b6778e4a#npm:3.6.8"],
+            ["mongodb", "virtual:475615247b1295324f6ef12108660f6c49274ef13d1ef5409755687ce2bb726e8bf367f1889271979009f5efd427cc48270ff94c4ea3c8a2d9127ffed1c50620#npm:3.6.8"],
             ["aws4", null],
             ["bl", "npm:2.2.1"],
             ["bson", "npm:1.1.6"],
@@ -3357,15 +3357,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["mongoose", [
-        ["npm:5.12.11", {
-          "packageLocation": "./.yarn/cache/mongoose-npm-5.12.11-f3aeaff975-b3d77a5def.zip/node_modules/mongoose/",
+        ["npm:5.12.12", {
+          "packageLocation": "./.yarn/cache/mongoose-npm-5.12.12-475615247b-9e9792e9bd.zip/node_modules/mongoose/",
           "packageDependencies": [
-            ["mongoose", "npm:5.12.11"],
+            ["mongoose", "npm:5.12.12"],
             ["@types/mongodb", "npm:3.6.16"],
             ["bson", "npm:1.1.6"],
             ["kareem", "npm:2.3.2"],
-            ["mongodb", "virtual:f3aeaff975bc4436e4ec9e45d02d8b3214c53c15597a57dd18608681aaf7ffea58deaac1e497ab2c1ad89aeb5e8d2bd3c045663279ceac63d39562f0b6778e4a#npm:3.6.8"],
-            ["mongoose-legacy-pluralize", "virtual:f3aeaff975bc4436e4ec9e45d02d8b3214c53c15597a57dd18608681aaf7ffea58deaac1e497ab2c1ad89aeb5e8d2bd3c045663279ceac63d39562f0b6778e4a#npm:1.0.2"],
+            ["mongodb", "virtual:475615247b1295324f6ef12108660f6c49274ef13d1ef5409755687ce2bb726e8bf367f1889271979009f5efd427cc48270ff94c4ea3c8a2d9127ffed1c50620#npm:3.6.8"],
+            ["mongoose-legacy-pluralize", "virtual:475615247b1295324f6ef12108660f6c49274ef13d1ef5409755687ce2bb726e8bf367f1889271979009f5efd427cc48270ff94c4ea3c8a2d9127ffed1c50620#npm:1.0.2"],
             ["mpath", "npm:0.8.3"],
             ["mquery", "npm:3.2.5"],
             ["ms", "npm:2.1.2"],
@@ -3385,12 +3385,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:f3aeaff975bc4436e4ec9e45d02d8b3214c53c15597a57dd18608681aaf7ffea58deaac1e497ab2c1ad89aeb5e8d2bd3c045663279ceac63d39562f0b6778e4a#npm:1.0.2", {
-          "packageLocation": "./.yarn/__virtual__/mongoose-legacy-pluralize-virtual-5499f1538a/0/cache/mongoose-legacy-pluralize-npm-1.0.2-2fbdda9a5a-8312c20882.zip/node_modules/mongoose-legacy-pluralize/",
+        ["virtual:475615247b1295324f6ef12108660f6c49274ef13d1ef5409755687ce2bb726e8bf367f1889271979009f5efd427cc48270ff94c4ea3c8a2d9127ffed1c50620#npm:1.0.2", {
+          "packageLocation": "./.yarn/__virtual__/mongoose-legacy-pluralize-virtual-ed67418c63/0/cache/mongoose-legacy-pluralize-npm-1.0.2-2fbdda9a5a-8312c20882.zip/node_modules/mongoose-legacy-pluralize/",
           "packageDependencies": [
-            ["mongoose-legacy-pluralize", "virtual:f3aeaff975bc4436e4ec9e45d02d8b3214c53c15597a57dd18608681aaf7ffea58deaac1e497ab2c1ad89aeb5e8d2bd3c045663279ceac63d39562f0b6778e4a#npm:1.0.2"],
+            ["mongoose-legacy-pluralize", "virtual:475615247b1295324f6ef12108660f6c49274ef13d1ef5409755687ce2bb726e8bf367f1889271979009f5efd427cc48270ff94c4ea3c8a2d9127ffed1c50620#npm:1.0.2"],
             ["@types/mongoose", null],
-            ["mongoose", "npm:5.12.11"]
+            ["mongoose", "npm:5.12.12"]
           ],
           "packagePeers": [
             "@types/mongoose",
@@ -3491,8 +3491,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express-winston", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:4.1.0"],
             ["helmet", "npm:4.6.0"],
             ["jsonwebtoken", "npm:8.5.1"],
-            ["mongoose", "npm:5.12.11"],
-            ["node-gyp", "npm:8.0.0"],
+            ["mongoose", "npm:5.12.12"],
+            ["node-gyp", "npm:8.1.0"],
             ["nodemon", "npm:2.0.7"],
             ["prettier", "npm:2.3.0"],
             ["validator", "npm:13.6.0"],
@@ -3506,7 +3506,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/unplugged/node-addon-api-npm-3.2.0-061ff0dbab/node_modules/node-addon-api/",
           "packageDependencies": [
             ["node-addon-api", "npm:3.2.0"],
-            ["node-gyp", "npm:8.0.0"]
+            ["node-gyp", "npm:8.1.0"]
           ],
           "linkType": "HARD",
         }]
@@ -3521,10 +3521,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["node-gyp", [
-        ["npm:8.0.0", {
-          "packageLocation": "./.yarn/unplugged/node-gyp-npm-8.0.0-a27599670d/node_modules/node-gyp/",
+        ["npm:8.1.0", {
+          "packageLocation": "./.yarn/unplugged/node-gyp-npm-8.1.0-30cf500e19/node_modules/node-gyp/",
           "packageDependencies": [
-            ["node-gyp", "npm:8.0.0"],
+            ["node-gyp", "npm:8.1.0"],
             ["env-paths", "npm:2.2.1"],
             ["glob", "npm:7.1.7"],
             ["graceful-fs", "npm:4.2.6"],
@@ -3676,7 +3676,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["object.entries", "npm:1.1.4"],
             ["call-bind", "npm:1.0.2"],
             ["define-properties", "npm:1.1.3"],
-            ["es-abstract", "npm:1.18.2"]
+            ["es-abstract", "npm:1.18.3"]
           ],
           "linkType": "HARD",
         }]
@@ -3688,7 +3688,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["object.values", "npm:1.1.4"],
             ["call-bind", "npm:1.0.2"],
             ["define-properties", "npm:1.1.3"],
-            ["es-abstract", "npm:1.18.2"]
+            ["es-abstract", "npm:1.18.3"]
           ],
           "linkType": "HARD",
         }]

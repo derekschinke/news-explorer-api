@@ -1154,8 +1154,8 @@ __metadata:
   linkType: hard
 
 "es-abstract@npm:^1.18.0-next.1, es-abstract@npm:^1.18.0-next.2, es-abstract@npm:^1.18.2":
-  version: 1.18.2
-  resolution: "es-abstract@npm:1.18.2"
+  version: 1.18.3
+  resolution: "es-abstract@npm:1.18.3"
   dependencies:
     call-bind: ^1.0.2
     es-to-primitive: ^1.2.1
@@ -1173,7 +1173,7 @@ __metadata:
     string.prototype.trimend: ^1.0.4
     string.prototype.trimstart: ^1.0.4
     unbox-primitive: ^1.0.1
-  checksum: ccbdae78b9044f8135dbbb66765c279844b7211dbf02cff711c61965ffcb6cf3b8aa1937a2e286d0f81ee3da2406e3f0b96a20690a95d1246676f44b60619801
+  checksum: 6bbf526b5a60cdbd390397644facbf654fc6616564614533a5ce223ecc185f7812a1f45c3ab6d0334b4ff2e8f554237539f4d05a0fceb036be24dd5d1ec022b0
   languageName: node
   linkType: hard
 
@@ -2809,9 +2809,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"mongoose@npm:5.12.11, mongoose@npm:^5.12.11":
-  version: 5.12.11
-  resolution: "mongoose@npm:5.12.11"
+"mongoose@npm:5.12.12, mongoose@npm:^5.12.12":
+  version: 5.12.12
+  resolution: "mongoose@npm:5.12.12"
   dependencies:
     "@types/mongodb": ^3.5.27
     bson: ^1.1.4
@@ -2825,7 +2825,7 @@ fsevents@~2.3.1:
     safe-buffer: 5.2.1
     sift: 13.5.2
     sliced: 1.0.1
-  checksum: b3d77a5def9b6ed8b6ec134b6dc651343170830e8ec97dd578af8d3e87b90d2819c5b401ff6154fe08834ff1fa3231926c167d4823cad85cb7af7da66b4a86bc
+  checksum: 9e9792e9bd35e4b971ea17e87472fe96e32d78d411fdf9ae5f5104ccf8c8b8b7b834c291bd76f4067c8dade85e696cc60d741702350b2fad01284f93853b9672
   languageName: node
   linkType: hard
 
@@ -2911,8 +2911,8 @@ fsevents@~2.3.1:
     express-winston: ^4.1.0
     helmet: ^4.6.0
     jsonwebtoken: ^8.5.1
-    mongoose: ^5.12.11
-    node-gyp: ^8.0.0
+    mongoose: ^5.12.12
+    node-gyp: ^8.1.0
     nodemon: ^2.0.7
     prettier: ^2.3.0
     validator: ^13.6.0
@@ -2936,9 +2936,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"node-gyp@npm:^8.0.0, node-gyp@npm:latest":
-  version: 8.0.0
-  resolution: "node-gyp@npm:8.0.0"
+"node-gyp@npm:^8.1.0, node-gyp@npm:latest":
+  version: 8.1.0
+  resolution: "node-gyp@npm:8.1.0"
   dependencies:
     env-paths: ^2.2.0
     glob: ^7.1.4
@@ -2952,7 +2952,7 @@ fsevents@~2.3.1:
     which: ^2.0.2
   bin:
     node-gyp: bin/node-gyp.js
-  checksum: 4fbd99af8a0ac1e0c834a693392d23696e945e604ede111c528eb8d4761dfb22492dbd33c4e3730b8aab99a9f156e9e6418ce489f88cbbfc51e0e00eadd51bc8
+  checksum: d9f11a9ab20d2ec900cd910ecd77bc3909d4b5cd9eaf9854b00be4ba930227c5ce2ee0681216c326739dd445b1787aa933ac8d6a16ce222455d85092bb047901
   languageName: node
   linkType: hard
 
