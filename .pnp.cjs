@@ -256,10 +256,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/mongodb", [
-        ["npm:3.6.16", {
-          "packageLocation": "./.yarn/cache/@types-mongodb-npm-3.6.16-e400b42518-54baa0b9ae.zip/node_modules/@types/mongodb/",
+        ["npm:3.6.17", {
+          "packageLocation": "./.yarn/cache/@types-mongodb-npm-3.6.17-085e96744d-873ce6ff1b.zip/node_modules/@types/mongodb/",
           "packageDependencies": [
-            ["@types/mongodb", "npm:3.6.16"],
+            ["@types/mongodb", "npm:3.6.17"],
             ["@types/bson", "npm:4.0.3"],
             ["@types/node", "npm:15.6.1"]
           ],
@@ -569,7 +569,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["bcrypt", "npm:5.0.1"],
             ["@mapbox/node-pre-gyp", "npm:1.0.5"],
-            ["node-addon-api", "npm:3.2.0"]
+            ["node-addon-api", "npm:3.2.1"]
           ],
           "linkType": "HARD",
         }]
@@ -3361,7 +3361,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/mongoose-npm-5.12.12-475615247b-9e9792e9bd.zip/node_modules/mongoose/",
           "packageDependencies": [
             ["mongoose", "npm:5.12.12"],
-            ["@types/mongodb", "npm:3.6.16"],
+            ["@types/mongodb", "npm:3.6.17"],
             ["bson", "npm:1.1.6"],
             ["kareem", "npm:2.3.2"],
             ["mongodb", "virtual:475615247b1295324f6ef12108660f6c49274ef13d1ef5409755687ce2bb726e8bf367f1889271979009f5efd427cc48270ff94c4ea3c8a2d9127ffed1c50620#npm:3.6.8"],
@@ -3502,10 +3502,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["node-addon-api", [
-        ["npm:3.2.0", {
-          "packageLocation": "./.yarn/unplugged/node-addon-api-npm-3.2.0-061ff0dbab/node_modules/node-addon-api/",
+        ["npm:3.2.1", {
+          "packageLocation": "./.yarn/unplugged/node-addon-api-npm-3.2.1-a29528f81d/node_modules/node-addon-api/",
           "packageDependencies": [
-            ["node-addon-api", "npm:3.2.0"],
+            ["node-addon-api", "npm:3.2.1"],
             ["node-gyp", "npm:8.1.0"]
           ],
           "linkType": "HARD",

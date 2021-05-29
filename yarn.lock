@@ -177,12 +177,12 @@ __metadata:
   linkType: hard
 
 "@types/mongodb@npm:^3.5.27":
-  version: 3.6.16
-  resolution: "@types/mongodb@npm:3.6.16"
+  version: 3.6.17
+  resolution: "@types/mongodb@npm:3.6.17"
   dependencies:
     "@types/bson": "*"
     "@types/node": "*"
-  checksum: 54baa0b9aea003b11427ad902bb381a87ebc381ada808412a8dad014347fb602c3d14d33d5be6fa579b106c9b2ce813258129e097bf7d331b2710bc052fe4569
+  checksum: 873ce6ff1b64fe12a9af92705915583b5169d47bead49f4cad1645ccb3e9ec9d7a20df3546e064f22cf9e8a7b4087248e2259f016138df18fd8e8eb7ef7d1d7d
   languageName: node
   linkType: hard
 
@@ -2921,11 +2921,11 @@ fsevents@~2.3.1:
   linkType: soft
 
 "node-addon-api@npm:^3.1.0":
-  version: 3.2.0
-  resolution: "node-addon-api@npm:3.2.0"
+  version: 3.2.1
+  resolution: "node-addon-api@npm:3.2.1"
   dependencies:
     node-gyp: latest
-  checksum: 538893f075a2f70b659e0ae82bdb2cd627b1b76ddcc9c39e95dc8ff4be786e9f6766ed2aac7d4159f879f0c49a3551636f6d09907865afc5643703e1752e4c3e
+  checksum: 2369986bb0881ccd9ef6bacdf39550e07e089a9c8ede1cbc5fc7712d8e2faa4d50da0e487e333d4125f8c7a616c730131d1091676c9d499af1d74560756b4a18
   languageName: node
   linkType: hard
 
