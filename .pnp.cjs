@@ -1820,7 +1820,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["on-finished", "npm:2.3.0"],
             ["parseurl", "npm:1.3.3"],
             ["path-to-regexp", "npm:0.1.7"],
-            ["proxy-addr", "npm:2.0.6"],
+            ["proxy-addr", "npm:2.0.7"],
             ["qs", "npm:6.7.0"],
             ["range-parser", "npm:1.2.1"],
             ["safe-buffer", "npm:5.1.2"],
@@ -2008,10 +2008,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["forwarded", [
-        ["npm:0.1.2", {
-          "packageLocation": "./.yarn/cache/forwarded-npm-0.1.2-6143c1ba42-54695c5742.zip/node_modules/forwarded/",
+        ["npm:0.2.0", {
+          "packageLocation": "./.yarn/cache/forwarded-npm-0.2.0-6473dabe35-fd27e2394d.zip/node_modules/forwarded/",
           "packageDependencies": [
-            ["forwarded", "npm:0.1.2"]
+            ["forwarded", "npm:0.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -4018,11 +4018,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["proxy-addr", [
-        ["npm:2.0.6", {
-          "packageLocation": "./.yarn/cache/proxy-addr-npm-2.0.6-8fafed6ca5-2bad9b7a56.zip/node_modules/proxy-addr/",
+        ["npm:2.0.7", {
+          "packageLocation": "./.yarn/cache/proxy-addr-npm-2.0.7-dae6552872-29c6990ce9.zip/node_modules/proxy-addr/",
           "packageDependencies": [
-            ["proxy-addr", "npm:2.0.6"],
-            ["forwarded", "npm:0.1.2"],
+            ["proxy-addr", "npm:2.0.7"],
+            ["forwarded", "npm:0.2.0"],
             ["ipaddr.js", "npm:1.9.1"]
           ],
           "linkType": "HARD",
