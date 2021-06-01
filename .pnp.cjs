@@ -299,7 +299,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/accepts-npm-1.3.7-0dc9de65aa-27fc8060ff.zip/node_modules/accepts/",
           "packageDependencies": [
             ["accepts", "npm:1.3.7"],
-            ["mime-types", "npm:2.1.30"],
+            ["mime-types", "npm:2.1.31"],
             ["negotiator", "npm:0.6.2"]
           ],
           "linkType": "HARD",
@@ -3191,20 +3191,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["mime-db", [
-        ["npm:1.47.0", {
-          "packageLocation": "./.yarn/cache/mime-db-npm-1.47.0-a85d74ef62-6808235243.zip/node_modules/mime-db/",
+        ["npm:1.48.0", {
+          "packageLocation": "./.yarn/cache/mime-db-npm-1.48.0-d896dd3151-d778392e47.zip/node_modules/mime-db/",
           "packageDependencies": [
-            ["mime-db", "npm:1.47.0"]
+            ["mime-db", "npm:1.48.0"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["mime-types", [
-        ["npm:2.1.30", {
-          "packageLocation": "./.yarn/cache/mime-types-npm-2.1.30-500b101efd-53c36729b1.zip/node_modules/mime-types/",
+        ["npm:2.1.31", {
+          "packageLocation": "./.yarn/cache/mime-types-npm-2.1.31-fbe9a57bbf-eb1612aa96.zip/node_modules/mime-types/",
           "packageDependencies": [
-            ["mime-types", "npm:2.1.30"],
-            ["mime-db", "npm:1.47.0"]
+            ["mime-types", "npm:2.1.31"],
+            ["mime-db", "npm:1.48.0"]
           ],
           "linkType": "HARD",
         }]
@@ -4882,7 +4882,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["type-is", "npm:1.6.18"],
             ["media-typer", "npm:0.3.0"],
-            ["mime-types", "npm:2.1.30"]
+            ["mime-types", "npm:2.1.31"]
           ],
           "linkType": "HARD",
         }]
