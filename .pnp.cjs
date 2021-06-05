@@ -54,7 +54,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mongoose", "npm:5.12.13"],
             ["node-gyp", "npm:8.1.0"],
             ["nodemon", "npm:2.0.7"],
-            ["prettier", "npm:2.3.0"],
+            ["prettier", "npm:2.3.1"],
             ["validator", "npm:13.6.0"],
             ["winston", "npm:3.3.3"]
           ],
@@ -1671,7 +1671,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/prettier", null],
             ["eslint", "npm:7.28.0"],
             ["eslint-config-prettier", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:8.3.0"],
-            ["prettier", "npm:2.3.0"],
+            ["prettier", "npm:2.3.1"],
             ["prettier-linter-helpers", "npm:1.0.0"]
           ],
           "packagePeers": [
@@ -3486,7 +3486,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mongoose", "npm:5.12.13"],
             ["node-gyp", "npm:8.1.0"],
             ["nodemon", "npm:2.0.7"],
-            ["prettier", "npm:2.3.0"],
+            ["prettier", "npm:2.3.1"],
             ["validator", "npm:13.6.0"],
             ["winston", "npm:3.3.3"]
           ],
@@ -3942,10 +3942,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["prettier", [
-        ["npm:2.3.0", {
-          "packageLocation": "./.yarn/cache/prettier-npm-2.3.0-29ef37e8b6-e8851a45f6.zip/node_modules/prettier/",
+        ["npm:2.3.1", {
+          "packageLocation": "./.yarn/cache/prettier-npm-2.3.1-f8593fac45-3b37731ff7.zip/node_modules/prettier/",
           "packageDependencies": [
-            ["prettier", "npm:2.3.0"]
+            ["prettier", "npm:2.3.1"]
           ],
           "linkType": "HARD",
         }]
