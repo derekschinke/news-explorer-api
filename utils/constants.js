@@ -1,4 +1,5 @@
-module.exports.BEARER_REGEX = /^(Bearer )[A-Za-z0-9-_]+\.[A-Za-z0-9-_]+\.[A-Za-z0-9-_.+/=]*$/;
+module.exports.BEARER_REGEX =
+  /^(Bearer )[A-Za-z0-9-_]+\.[A-Za-z0-9-_]+\.[A-Za-z0-9-_.+/=]*$/;
 
 module.exports.DEV_SECRET = 'dev-secret';
 
