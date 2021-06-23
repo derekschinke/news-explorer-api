@@ -11,7 +11,7 @@
     "dev": "nodemon app.js"
   },
   "devDependencies": {
-    "eslint": "^7.28.0",
+    "eslint": "^7.29.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-node": "^0.3.4",
@@ -31,7 +31,7 @@
     "express-winston": "^4.1.0",
     "helmet": "^4.6.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.12.13",
+    "mongoose": "^5.12.14",
     "node-gyp": "^8.1.0",
     "validator": "^13.6.0",
     "winston": "^3.3.3"
