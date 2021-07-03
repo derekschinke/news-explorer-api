@@ -68,11 +68,29 @@ __metadata:
   linkType: hard
 
 "@hapi/topo@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "@hapi/topo@npm:5.0.0"
+  version: 5.1.0
+  resolution: "@hapi/topo@npm:5.1.0"
   dependencies:
     "@hapi/hoek": ^9.0.0
-  checksum: 8aa81f71696f88d7daeab4547e120e43c6ab78081a4f215eec5103dd858f3122a703512cdacc43aa7e27d99607345165acfeb2ee69e556e63afd50c5c57a36c3
+  checksum: 604dfd5dde76d5c334bd03f9001fce69c7ce529883acf92da96f4fe7e51221bf5e5110e964caca287a6a616ba027c071748ab636ff178ad750547fba611d6014
+  languageName: node
+  linkType: hard
+
+"@humanwhocodes/config-array@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "@humanwhocodes/config-array@npm:0.5.0"
+  dependencies:
+    "@humanwhocodes/object-schema": ^1.2.0
+    debug: ^4.1.1
+    minimatch: ^3.0.4
+  checksum: 44ee6a9f05d93dd9d5935a006b17572328ba9caff8002442f601736cbda79c580cc0f5a49ce9eb88fbacc5c3a6b62098357c2e95326cd17bb9f1a6c61d6e95e7
+  languageName: node
+  linkType: hard
+
+"@humanwhocodes/object-schema@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@humanwhocodes/object-schema@npm:1.2.0"
+  checksum: 40b75480376de8104d65f7c44a7dd76d30fb57823ca8ba3a3239b2b568323be894d93440578a72fd8e5e2cc3df3577ce0d2f0fe308b990dd51cf35392bf3c9a2
   languageName: node
   linkType: hard
 
@@ -177,19 +195,19 @@ __metadata:
   linkType: hard
 
 "@types/mongodb@npm:^3.5.27":
-  version: 3.6.18
-  resolution: "@types/mongodb@npm:3.6.18"
+  version: 3.6.19
+  resolution: "@types/mongodb@npm:3.6.19"
   dependencies:
     "@types/bson": "*"
     "@types/node": "*"
-  checksum: 8bc4d9971636fbec640edfcebc02ed2ce5ccc59d541e16edbda95e58ce3733670d82588e016576c9910da79c7c5acb6f7626764c41a4c97b1548da3096631bdd
+  checksum: 80ba875d05ae9417e2874ba8345500571111e7c2814f8006f13428c25b83a1eef61aa0c3fb7a262d9d7b6bc07fd17fac98e697c4212ace427066f6067c04ea68
   languageName: node
   linkType: hard
 
 "@types/node@npm:*":
-  version: 15.12.4
-  resolution: "@types/node@npm:15.12.4"
-  checksum: 1731c610eb87d2051d32d0f64f2b14b4e75443ab40ab4882e50fdaa4e5e1013240a6d249213bec1f83b2c3ba24f6d5233159a4deac0bb51751809f5cb6082735
+  version: 16.0.0
+  resolution: "@types/node@npm:16.0.0"
+  checksum: 57e5731ba8d64d9a6434c69f1153186b7fc1b0f58ae54f3eb8c32cd122e87e9aca35947f62e92e1902027994dac97b5bff7cce4d9c56cb319f07f694fe55d012
   languageName: node
   linkType: hard
 
@@ -1334,12 +1352,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.29.0":
-  version: 7.29.0
-  resolution: "eslint@npm:7.29.0"
+"eslint@npm:^7.30.0":
+  version: 7.30.0
+  resolution: "eslint@npm:7.30.0"
   dependencies:
     "@babel/code-frame": 7.12.11
     "@eslint/eslintrc": ^0.4.2
+    "@humanwhocodes/config-array": ^0.5.0
     ajv: ^6.10.0
     chalk: ^4.0.0
     cross-spawn: ^7.0.2
@@ -1379,7 +1398,7 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: 8a18377c761560a29fb48b27458517f260f7854882e40cf7e2d38f0ba60ac1038f39404e0ea849abdda18699530fe055adc5bdbf1ef726ce91ac1482cac9d38c
+  checksum: 872f90844b164dd61ec1bb949d2e33e7fbd189e0652fabe2cbbd0bdce1e4cd7ed08e72fa213795a453ae39fe24460771800608e765febb9e778deb28b9db3cc1
   languageName: node
   linkType: hard
 
@@ -1450,10 +1469,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"express-rate-limit@npm:^5.2.6":
-  version: 5.2.6
-  resolution: "express-rate-limit@npm:5.2.6"
-  checksum: 39a72c99982ad4679107da36cab05ce08d3e684268e8c0c4afad57eb910e6bce877e178aa50dcfaa21985a43acc707a2512903a9e0d47cf56fa23422e3a7d1a1
+"express-rate-limit@npm:^5.3.0":
+  version: 5.3.0
+  resolution: "express-rate-limit@npm:5.3.0"
+  checksum: 8d78c957215bc0092186b455e03b52fdfff279dc2a8bdd98ee9cc14a0cbbb60cf5ef7844fc2d3b9122584d64449ea4f7aaeb2c93e93a9c115cfba89ca4e27ea6
   languageName: node
   linkType: hard
 
@@ -1611,9 +1630,9 @@ __metadata:
   linkType: hard
 
 "flatted@npm:^3.1.0":
-  version: 3.1.1
-  resolution: "flatted@npm:3.1.1"
-  checksum: 508935e3366d95444131f0aaa801a4301f24ea5bcb900d12764e7335b46b910730cc1b5bcfcfb8eccb7c8db261ba0671c6a7ca30d10870ff7a7756dc7e731a7a
+  version: 3.2.0
+  resolution: "flatted@npm:3.2.0"
+  checksum: 31ceaf91e9f79acb4855789d243a583100d2d116eb6ea20e51ba1bf6c4675d865e65a44b4e03451764388d6fc6e2a92822873a5c7afa623d9dc46077b9bd78d5
   languageName: node
   linkType: hard
 
@@ -2800,9 +2819,9 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"mongoose@npm:5.12.15, mongoose@npm:^5.12.15":
-  version: 5.12.15
-  resolution: "mongoose@npm:5.12.15"
+"mongoose@npm:5.13.1, mongoose@npm:^5.13.1":
+  version: 5.13.1
+  resolution: "mongoose@npm:5.13.1"
   dependencies:
     "@types/mongodb": ^3.5.27
     bson: ^1.1.4
@@ -2816,7 +2835,7 @@ fsevents@~2.3.2:
     safe-buffer: 5.2.1
     sift: 13.5.2
     sliced: 1.0.1
-  checksum: 2d2efbd60e766f7c1c9144937997c6a236ab409adbdd839a6a14622831f394d6e2c00f4875faa359db6c101c85920cfdbdb1e41d885024675a55d29fd338cf6a
+  checksum: eb59b586cfc0b63e448435c37ba9bd0bb3ef3ef95b5e19987bf32cf7257d19b7c92c760a35d5a688e7715b1363073fefb2e47491b09d3b4b54fb349e8df24d40
   languageName: node
   linkType: hard
 
@@ -2890,21 +2909,21 @@ fsevents@~2.3.2:
     celebrate: ^14.0.0
     cors: ^2.8.5
     dotenv: ^10.0.0
-    eslint: ^7.29.0
+    eslint: ^7.30.0
     eslint-config-airbnb-base: ^14.2.1
     eslint-config-prettier: ^8.3.0
     eslint-import-resolver-node: ^0.3.4
     eslint-plugin-import: ^2.23.4
     eslint-plugin-prettier: ^3.4.0
     express: ^4.17.1
-    express-rate-limit: ^5.2.6
+    express-rate-limit: ^5.3.0
     express-slow-down: ^1.4.0
     express-winston: ^4.1.0
     helmet: ^4.6.0
     jsonwebtoken: ^8.5.1
-    mongoose: ^5.12.15
+    mongoose: ^5.13.1
     node-gyp: ^8.1.0
-    nodemon: ^2.0.7
+    nodemon: ^2.0.9
     prettier: ^2.3.2
     validator: ^13.6.0
     winston: ^3.3.3
@@ -2947,9 +2966,9 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"nodemon@npm:^2.0.7":
-  version: 2.0.7
-  resolution: "nodemon@npm:2.0.7"
+"nodemon@npm:^2.0.9":
+  version: 2.0.9
+  resolution: "nodemon@npm:2.0.9"
   dependencies:
     chokidar: ^3.2.2
     debug: ^3.2.6
@@ -2963,7 +2982,7 @@ fsevents@~2.3.2:
     update-notifier: ^4.1.0
   bin:
     nodemon: bin/nodemon.js
-  checksum: d1af0b92e73f6cafb7477eb9d8932636205efeed4b06406a4c7b5b8fad5c00a026e703afcd07ec27c57d4285e38ea29f61c57e5c5e72ed503a79be3b02bbba38
+  checksum: 0242661e7038b0a5bd393216188615babf9ecb2d97bd3f8300ee4bc7ce86473b6877181b7f6f3ae94dc025a5fc784743ede40d32cb7c10f07fe718023cf3eabd
   languageName: node
   linkType: hard
 
