@@ -170,44 +170,44 @@ __metadata:
   linkType: hard
 
 "@types/bson@npm:*":
-  version: 4.0.3
-  resolution: "@types/bson@npm:4.0.3"
+  version: 4.0.4
+  resolution: "@types/bson@npm:4.0.4"
   dependencies:
     "@types/node": "*"
-  checksum: 38e80ef424cfebf7beba01c29f22735eb2978b489837ca78d53ab72e2b837a9842ef18d92952e7385c676fdb31c360903a7afa8d9076890b9dbef0c7312bea2a
-  languageName: node
-  linkType: hard
-
-"@types/json5@npm:^0.0.29":
-  version: 0.0.29
-  resolution: "@types/json5@npm:0.0.29"
-  checksum: e60b153664572116dfea673c5bda7778dbff150498f44f998e34b5886d8afc47f16799280e4b6e241c0472aef1bc36add771c569c68fc5125fc2ae519a3eb9ac
+  checksum: 81f3b1f3ca3c8684d01257fdbfe2836ffcbc039bf0c0b34365723cba2b63b9c7bbdb5a6b54db4805db85cb5c87bb122da8c7b8e0f7c5800943e761758fd1ba47
   languageName: node
   linkType: hard
 
 "@types/keyv@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "@types/keyv@npm:3.1.1"
+  version: 3.1.2
+  resolution: "@types/keyv@npm:3.1.2"
   dependencies:
     "@types/node": "*"
-  checksum: ee0d098693bf4af44be756eed02daf95f5d0fd4b5b02da952a5952e08842baddf6a986a9ea5f9e460729782f1a0a47848c892ad96ea188b66a363feb49a1536f
+  checksum: 769e462ae9d663f1c2b65f07f621d52cfd02b8289357ac9f8af353243a7356a54f1568d4cbef13b90de367aaeb768446b324b792b6c5ff958d0b34ed68b75df2
   languageName: node
   linkType: hard
 
 "@types/mongodb@npm:^3.5.27":
-  version: 3.6.19
-  resolution: "@types/mongodb@npm:3.6.19"
+  version: 3.6.20
+  resolution: "@types/mongodb@npm:3.6.20"
   dependencies:
     "@types/bson": "*"
     "@types/node": "*"
-  checksum: 80ba875d05ae9417e2874ba8345500571111e7c2814f8006f13428c25b83a1eef61aa0c3fb7a262d9d7b6bc07fd17fac98e697c4212ace427066f6067c04ea68
+  checksum: e5397ada2ed728997f7c3f5424e8c28f682a635488be967c9c18a5de27b1641cf28bb42bc12026ac6d475c457a880e27097e13c8120350ba13219f4ccc030656
   languageName: node
   linkType: hard
 
 "@types/node@npm:*":
-  version: 16.0.0
-  resolution: "@types/node@npm:16.0.0"
-  checksum: 57e5731ba8d64d9a6434c69f1153186b7fc1b0f58ae54f3eb8c32cd122e87e9aca35947f62e92e1902027994dac97b5bff7cce4d9c56cb319f07f694fe55d012
+  version: 16.0.1
+  resolution: "@types/node@npm:16.0.1"
+  checksum: f25d861d1bc36cbcce34516f800472d3e7b5980ce4d72399b094bd5cd3636e20cd8e143f5b4615c9385c04ef5ddbf61a181612ab658ef95a6f641dbce911bf92
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:14.x || 15.x":
+  version: 15.14.1
+  resolution: "@types/node@npm:15.14.1"
+  checksum: efcc7e52a2d4d2e64c9e80ec72e3a08271a8536a713ffbfaa8391bd2a34bce599b8c2926eddc2f060a32df1c5dbd6a5d58be20ef4ac3fc6a45920622d4c87707
   languageName: node
   linkType: hard
 
@@ -298,14 +298,14 @@ __metadata:
   linkType: hard
 
 "ajv@npm:^8.0.1":
-  version: 8.6.0
-  resolution: "ajv@npm:8.6.0"
+  version: 8.6.1
+  resolution: "ajv@npm:8.6.1"
   dependencies:
     fast-deep-equal: ^3.1.1
     json-schema-traverse: ^1.0.0
     require-from-string: ^2.0.2
     uri-js: ^4.2.2
-  checksum: 4cc0ca6c60d6a279aa7ade99515868a3d0485b2b920ddbbc6ee6c7100197dedeff61314a577c3258b1abbbbb084a846825ece7504c848ffbe513c9c54e5fc08b
+  checksum: e091264ff6c8134d9072e804f6f1d56e8dacc143537852d9afb456f0bb6c4eff98307e152da2faf7afef2ebf665278316aa5cf30f7d81ccecc9654c11629e2a6
   languageName: node
   linkType: hard
 
@@ -1783,11 +1783,11 @@ fsevents@~2.3.2:
   linkType: hard
 
 "globals@npm:^13.6.0, globals@npm:^13.9.0":
-  version: 13.9.0
-  resolution: "globals@npm:13.9.0"
+  version: 13.10.0
+  resolution: "globals@npm:13.10.0"
   dependencies:
     type-fest: ^0.20.2
-  checksum: 566b29b475dd793eeb44d5b54823fdbf320e7077f5d1d330856ac2e7e016e4b50c8310b12d498282d5b5b26bdd7a1a6343615f510bf37b8863ec2741d58cc6ad
+  checksum: 64e45d96d634d2b047385eb5925de3abb5964cf4f3564eba493694f5ab1a8818b333f89d34b0f71f9b1d87391e6e25c5ca1a87094dd80a657d1d99b9321e1f4e
   languageName: node
   linkType: hard
 
@@ -2366,14 +2366,14 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"json5@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "json5@npm:1.0.1"
+"json5@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "json5@npm:2.2.0"
   dependencies:
-    minimist: ^1.2.0
+    minimist: ^1.2.5
   bin:
     json5: lib/cli.js
-  checksum: e76ea23dbb8fc1348c143da628134a98adf4c5a4e8ea2adaa74a80c455fc2cdf0e2e13e6398ef819bfe92306b610ebb2002668ed9fc1af386d593691ef346fc3
+  checksum: e88fc5274bb58fc99547baa777886b069d2dd96d9cfc4490b305fd16d711dabd5979e35a4f90873cefbeb552e216b041a304fe56702bedba76e19bc7845f208d
   languageName: node
   linkType: hard
 
@@ -2694,7 +2694,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"minimist@npm:^1.2.0":
+"minimist@npm:^1.2.0, minimist@npm:^1.2.5":
   version: 1.2.5
   resolution: "minimist@npm:1.2.5"
   checksum: 86706ce5b36c16bfc35c5fe3dbb01d5acdc9a22f2b6cc810b6680656a1d2c0e44a0159c9a3ba51fb072bb5c203e49e10b51dcd0eec39c481f4c42086719bae52
@@ -2819,11 +2819,12 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"mongoose@npm:5.13.1, mongoose@npm:^5.13.1":
-  version: 5.13.1
-  resolution: "mongoose@npm:5.13.1"
+"mongoose@npm:5.13.2, mongoose@npm:^5.13.2":
+  version: 5.13.2
+  resolution: "mongoose@npm:5.13.2"
   dependencies:
     "@types/mongodb": ^3.5.27
+    "@types/node": 14.x || 15.x
     bson: ^1.1.4
     kareem: 2.3.2
     mongodb: 3.6.8
@@ -2835,7 +2836,7 @@ fsevents@~2.3.2:
     safe-buffer: 5.2.1
     sift: 13.5.2
     sliced: 1.0.1
-  checksum: eb59b586cfc0b63e448435c37ba9bd0bb3ef3ef95b5e19987bf32cf7257d19b7c92c760a35d5a688e7715b1363073fefb2e47491b09d3b4b54fb349e8df24d40
+  checksum: 6e52bf8cd4c449c579c7c04ce1768a93bf2dfda74b8e5da82076e59b776a8b88af09521a258655f4e6366c1eb40f7f2b207bd051d9d00543f382d5930b176e78
   languageName: node
   linkType: hard
 
@@ -2921,7 +2922,7 @@ fsevents@~2.3.2:
     express-winston: ^4.1.0
     helmet: ^4.6.0
     jsonwebtoken: ^8.5.1
-    mongoose: ^5.13.1
+    mongoose: ^5.13.2
     node-gyp: ^8.1.0
     nodemon: ^2.0.9
     prettier: ^2.3.2
@@ -4126,14 +4127,13 @@ fsevents@~2.3.2:
   linkType: hard
 
 "tsconfig-paths@npm:^3.9.0":
-  version: 3.9.0
-  resolution: "tsconfig-paths@npm:3.9.0"
+  version: 3.10.1
+  resolution: "tsconfig-paths@npm:3.10.1"
   dependencies:
-    "@types/json5": ^0.0.29
-    json5: ^1.0.1
+    json5: ^2.2.0
     minimist: ^1.2.0
     strip-bom: ^3.0.0
-  checksum: 243b3b098c76a4ca90ea0431683f3755a4ff175c6123bcba5f7b4bd80fe2ef8fa9bdc8f4d525148a1e71ade7f3e037e7c0313ae177fd12398ab68f05c2c7f25d
+  checksum: 014ec869276114031d3bd6d2d9ce07c32c96ca6912f32285f46eeb4ca5270bd4c5e4de1353b838c66282157f089dedc8c3377c4e72e2f3d910e706c7b9ac5e6d
   languageName: node
   linkType: hard
 
