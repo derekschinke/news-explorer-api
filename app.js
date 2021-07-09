@@ -15,7 +15,7 @@ const NotFoundError = require('./errors/NotFoundError');
 
 dotenv.config();
 
-const { MONGO_SECRET, NODE_ENV, PORT = 3000 } = process.env;
+const { MONGO_SECRET, NODE_ENV, PORT = 3001 } = process.env;
 
 const app = express();
 
