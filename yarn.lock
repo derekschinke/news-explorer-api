@@ -198,9 +198,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 16.0.1
-  resolution: "@types/node@npm:16.0.1"
-  checksum: f25d861d1bc36cbcce34516f800472d3e7b5980ce4d72399b094bd5cd3636e20cd8e143f5b4615c9385c04ef5ddbf61a181612ab658ef95a6f641dbce911bf92
+  version: 16.3.0
+  resolution: "@types/node@npm:16.3.0"
+  checksum: f0a73533471787b1394ee2a98d928552b1b7f5ca481dcd358b165088d23c6634151904dd3441cdcfc5f459b2e7b74b19befa891e3ce7ae6751b14dcbe8ee3a25
   languageName: node
   linkType: hard
 
@@ -238,11 +238,11 @@ __metadata:
   linkType: hard
 
 "acorn-jsx@npm:^5.3.1":
-  version: 5.3.1
-  resolution: "acorn-jsx@npm:5.3.1"
+  version: 5.3.2
+  resolution: "acorn-jsx@npm:5.3.2"
   peerDependencies:
     acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: daf441a9d7b59c0ea1f7fe2934c48aca604a007455129ce35fa62ec3d4c8363e2efc2d4da636d18ce0049979260ba07d8b42bc002ae95182916d2c90901529c2
+  checksum: c3d3b2a89c9a056b205b69530a37b972b404ee46ec8e5b341666f9513d3163e2a4f214a71f4dfc7370f5a9c07472d2fd1c11c91c3f03d093e37637d95da98950
   languageName: node
   linkType: hard
 
@@ -1630,9 +1630,9 @@ __metadata:
   linkType: hard
 
 "flatted@npm:^3.1.0":
-  version: 3.2.0
-  resolution: "flatted@npm:3.2.0"
-  checksum: 31ceaf91e9f79acb4855789d243a583100d2d116eb6ea20e51ba1bf6c4675d865e65a44b4e03451764388d6fc6e2a92822873a5c7afa623d9dc46077b9bd78d5
+  version: 3.2.1
+  resolution: "flatted@npm:3.2.1"
+  checksum: 569f3af4ba493d6446dafb45f3c709d0a0e8e0baf7d172ca80896ed985c40fde29290a0425f07d4bb6807752237aabb29bc6529c96edc30175bf8227906a7055
   languageName: node
   linkType: hard
 
@@ -2924,7 +2924,7 @@ fsevents@~2.3.2:
     jsonwebtoken: ^8.5.1
     mongoose: ^5.13.2
     node-gyp: ^8.1.0
-    nodemon: ^2.0.9
+    nodemon: ^2.0.10
     prettier: ^2.3.2
     validator: ^13.6.0
     winston: ^3.3.3
@@ -2967,9 +2967,9 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"nodemon@npm:^2.0.9":
-  version: 2.0.9
-  resolution: "nodemon@npm:2.0.9"
+"nodemon@npm:^2.0.10":
+  version: 2.0.10
+  resolution: "nodemon@npm:2.0.10"
   dependencies:
     chokidar: ^3.2.2
     debug: ^3.2.6
@@ -2983,7 +2983,7 @@ fsevents@~2.3.2:
     update-notifier: ^4.1.0
   bin:
     nodemon: bin/nodemon.js
-  checksum: 0242661e7038b0a5bd393216188615babf9ecb2d97bd3f8300ee4bc7ce86473b6877181b7f6f3ae94dc025a5fc784743ede40d32cb7c10f07fe718023cf3eabd
+  checksum: a90641e54885eb831cc69e35116cd727798db3c6f6f0f9dbf60a5ccd9db49be4c45833fcaed3a466ae9de5ecf0872a070245e7d9929c45930c8d0aab20836435
   languageName: node
   linkType: hard
 
