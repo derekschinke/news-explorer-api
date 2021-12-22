@@ -3,8 +3,8 @@
   "author": "Derek Schinke",
   "main": "app.js",
   "engines": {
-    "node": "16.x",
-    "npm": "7.x"
+    "node": "17.x",
+    "npm": "8.x"
   },
   "scripts": {
     "start": "node app.js",
