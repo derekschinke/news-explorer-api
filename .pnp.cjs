@@ -46,7 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-import", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:2.25.3"],
             ["eslint-plugin-prettier", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:4.0.0"],
             ["express", "npm:4.17.2"],
-            ["express-rate-limit", "npm:5.5.1"],
+            ["express-rate-limit", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:6.0.1"],
             ["express-slow-down", "npm:1.4.0"],
             ["express-winston", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:4.2.0"],
             ["helmet", "npm:4.6.0"],
@@ -1802,10 +1802,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["express-rate-limit", [
-        ["npm:5.5.1", {
-          "packageLocation": "./.yarn/cache/express-rate-limit-npm-5.5.1-3af8247282-264820bd5f.zip/node_modules/express-rate-limit/",
+        ["npm:6.0.1", {
+          "packageLocation": "./.yarn/cache/express-rate-limit-npm-6.0.1-16c04c9974-ff47bfb818.zip/node_modules/express-rate-limit/",
           "packageDependencies": [
-            ["express-rate-limit", "npm:5.5.1"]
+            ["express-rate-limit", "npm:6.0.1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:6.0.1", {
+          "packageLocation": "./.yarn/__virtual__/express-rate-limit-virtual-4b99923248/0/cache/express-rate-limit-npm-6.0.1-16c04c9974-ff47bfb818.zip/node_modules/express-rate-limit/",
+          "packageDependencies": [
+            ["express-rate-limit", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:6.0.1"],
+            ["@types/express", null],
+            ["express", "npm:4.17.2"]
+          ],
+          "packagePeers": [
+            "@types/express",
+            "express"
           ],
           "linkType": "HARD",
         }]
@@ -3381,7 +3394,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-import", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:2.25.3"],
             ["eslint-plugin-prettier", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:4.0.0"],
             ["express", "npm:4.17.2"],
-            ["express-rate-limit", "npm:5.5.1"],
+            ["express-rate-limit", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:6.0.1"],
             ["express-slow-down", "npm:1.4.0"],
             ["express-winston", "virtual:795d5c99a718a457231e8fab8ab00219b500198d439b1fb264cab9bd69f0050cd0fe9fd3d09ce1e467666ad8622a4603045b9b99b3f92519a883e4ca56748bbc#npm:4.2.0"],
             ["helmet", "npm:4.6.0"],
